@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T03:50:23.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="661PKPCO7L7tHzhhupGs" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T06:06:39.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="4d-YI0Co177XS9_5tBl9" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1426" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-66" value="创建协程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-3">
           <mxGeometry x="20" y="120" width="640" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-28" value="machine-list-线程" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-28" value="global--machine-list" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="390" y="930" width="680" height="340" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-29" value="&lt;span style=&quot;text-align: left&quot;&gt;machine-1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-28">
@@ -61,7 +61,7 @@
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-34" value="hand off机制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-35" value="process-list" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-35" value="global-process-list" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="387" y="300" width="700" height="490" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-10" value="process-1" style="swimlane;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-35">
@@ -147,9 +147,6 @@
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-69" value="prcoess虚拟绑定machine&lt;br&gt;1v1" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
           <mxGeometry x="397" y="840" width="673" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-70" value="runtime创建&lt;br&gt;m0和g0&lt;br&gt;并把两者关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-79" value="go run main.go" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="10" y="300" width="200" height="330" as="geometry" />
