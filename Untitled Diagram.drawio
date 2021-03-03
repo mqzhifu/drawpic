@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T11:31:55.663Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="Qj-PWcpOBgsX1XNmaXfZ" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T11:32:14.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="ku1xneNL8G1WuysihIzE" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1426" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,7 +134,7 @@
           <mxGeometry x="387" y="700" width="673" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-79" value="go run main.go" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="30" width="230" height="1300" as="geometry" />
+          <mxGeometry x="70" y="30" width="230" height="1300" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-80" value="创建M0主线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
           <mxGeometry x="10" y="40" width="90" height="40" as="geometry" />
@@ -223,11 +223,8 @@
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-190" value="&lt;span&gt;初始化M0和G0&lt;/span&gt;&lt;br&gt;&lt;span&gt;创建P-LIST&lt;/span&gt;&lt;br&gt;&lt;span&gt;初始化schedt&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
           <mxGeometry x="110" y="240" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-83" value="G0协程是个关键，当一个协程在M上执行完后，首先会切到G0，由G0去寻找P" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="267" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-167" value="schedt" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="210" width="330" height="394" as="geometry" />
+          <mxGeometry x="1120" y="30" width="330" height="394" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-168" value="machine-idle" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-167">
           <mxGeometry x="20" y="38" width="120" height="130" as="geometry" />
@@ -314,7 +311,7 @@
           <mxGeometry x="681.5" y="910" width="70" height="45" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-212" value="newproc()" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="650" width="300" height="740" as="geometry" />
+          <mxGeometry x="1120" y="480" width="300" height="740" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-213" value="设置成员变量" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=36;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-212">
           <mxGeometry x="22" y="37" width="140" height="88" as="geometry" />
