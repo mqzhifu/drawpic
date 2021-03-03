@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T11:54:52.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="GnQVQbKS8PyP2CnZBcXU" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T11:56:33.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="4sGrzdeZC37OxtFbhW7i" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1426" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -370,14 +370,14 @@
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-121" value="每61次，从&lt;br&gt;GRQ中找一个G&lt;br&gt;(globrunqget)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-120">
           <mxGeometry x="15" y="40" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-122" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;从M绑定的P的LRQ中找一个G&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-120">
-          <mxGeometry x="15" y="170" width="90" height="51.5" as="geometry" />
-        </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-123" value="从其它的P的&lt;br&gt;LRQ中找一个G&lt;br&gt;(runqget)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-120">
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-123" value="从其它的P的&lt;br&gt;LRQ中找一个G&lt;br&gt;()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-120">
           <mxGeometry x="15" y="100" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-124" value="&lt;div style=&quot;text-align: left&quot;&gt;execute(G)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-120">
           <mxGeometry x="15" y="240" width="90" height="51.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-122" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;从M绑定的P的LRQ中找一个G&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;runqget&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-120">
+          <mxGeometry x="15" y="160" width="93" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
