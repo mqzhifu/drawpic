@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T11:23:35.671Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="LOiY4Th7RKxq90r11ieW" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T11:24:50.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="0mh_2U4Pbe1IKXAtEI8L" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1426" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -390,6 +390,9 @@
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-219" value="G&lt;br&gt;Free list" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-212">
           <mxGeometry x="48.5" y="263" width="80" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-220" value="初始化G&lt;br&gt;设置成员变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-212">
+          <mxGeometry x="32" y="342" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
