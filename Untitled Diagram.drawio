@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T06:52:47.969Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="DbMRTEXozSUUKvn6xrJC" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T06:57:56.417Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="Za26ezpAUFv3pVEtf8-i" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1426" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,9 +149,9 @@
           <mxGeometry x="397" y="840" width="673" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-79" value="go run main.go" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="30" width="200" height="330" as="geometry" />
+          <mxGeometry x="10" y="30" width="230" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-80" value="创建M0线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-80" value="创建M0主线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
           <mxGeometry x="10" y="40" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-81" value="创建G0协程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
@@ -159,6 +159,9 @@
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-82" value="M0绑定G0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
           <mxGeometry x="10" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-85" value="G0主要是开一个栈，供runtime执行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
+          <mxGeometry x="110" y="96" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-83" value="G0协程是个关键，当一个协程在M上执行完后，首先会切到G0，由G0去寻找P" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="370" width="120" height="60" as="geometry" />
