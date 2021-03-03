@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T12:13:44.193Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="FOBEXaZlW61vD-_d98UG" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T12:14:42.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="qjASIAlcgxjtbKAjqunE" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1426" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,7 +134,7 @@
           <mxGeometry x="387" y="700" width="673" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-79" value="go run main.go" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="20" y="40" width="340" height="1250" as="geometry" />
+          <mxGeometry x="20" y="40" width="340" height="1460" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-80" value="创建M0主线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
           <mxGeometry x="10" y="40" width="90" height="40" as="geometry" />
@@ -210,6 +210,9 @@
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-246" value="gogo(gp.sched)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-243">
           <mxGeometry y="78" width="122" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-247" value="没错，如果用户态的main&lt;br&gt;没有再开其它协程&lt;br&gt;就结束了，如果有，则继续" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
+          <mxGeometry x="10" y="1070" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-167" value="schedt" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="1120" y="30" width="330" height="394" as="geometry" />
