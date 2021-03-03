@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T07:11:02.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="9PmNAOeUie5xNVNT78sC" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T07:12:46.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="5TnmHrLLfdAt6MAKAw1p" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1426" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,6 +168,9 @@
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-88" value="初始化M0和G0&lt;br&gt;创建P&lt;br&gt;schedt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
           <mxGeometry x="110" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-89" value="newproc()&lt;br&gt;runtime.main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
+          <mxGeometry x="10" y="300" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-83" value="G0协程是个关键，当一个协程在M上执行完后，首先会切到G0，由G0去寻找P" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="510" width="120" height="60" as="geometry" />
