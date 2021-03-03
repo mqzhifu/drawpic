@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T12:14:42.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="qjASIAlcgxjtbKAjqunE" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T12:15:10.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="mtgx8nuUzXPpVth7bxKf" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1426" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,6 +213,9 @@
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-247" value="没错，如果用户态的main&lt;br&gt;没有再开其它协程&lt;br&gt;就结束了，如果有，则继续" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
           <mxGeometry x="10" y="1070" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-248" value="这里假设用户态main又开了一个新的协程，且main阻塞" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
+          <mxGeometry x="10" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-167" value="schedt" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="1120" y="30" width="330" height="394" as="geometry" />
