@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T11:27:58.660Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="3yka2lol5mBC0HwP5KtX" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T11:28:52.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="VC50VH9gwwL4Lp5YrowV" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1426" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
           <mxGeometry y="130" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-67" value="OS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1840" width="673" height="60" as="geometry" />
+          <mxGeometry x="330" y="1940" width="673" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-69" value="prcoess虚拟绑定machine&lt;br&gt;1v1" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
           <mxGeometry x="387" y="700" width="673" height="40" as="geometry" />
@@ -353,7 +353,7 @@
           <mxGeometry y="52" width="150" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-212" value="newproc()" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="610" y="1247" width="310" height="543" as="geometry" />
+          <mxGeometry x="610" y="1247" width="310" height="633" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-213" value="设置成员变量" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=36;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-212">
           <mxGeometry x="22" y="37" width="140" height="88" as="geometry" />
@@ -390,6 +390,9 @@
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-225" value="malg&lt;br&gt;创建一个新的G&lt;br&gt;结构体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-212">
           <mxGeometry x="180" y="263" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-227" value="更改状态&lt;br&gt;runnable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-212">
+          <mxGeometry x="37.5" y="493" width="101" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
