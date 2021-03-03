@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T02:05:48.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="1UbQGeYJqAE6R2Z0NGYX" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T02:07:51.878Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="rhOGnI_gQElqI3OOyALB" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1298" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-3" value="用户-协程生产池" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-3" value="开发者-协程生产池" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="120" y="30" width="680" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-4" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-3">
