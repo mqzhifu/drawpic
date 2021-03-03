@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T08:04:35.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="z27KBDD2s5X7yGRSLFxW" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T08:52:14.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="D-MqDQ_f902HHH-UDR_0" version="14.4.3" type="github">
   <diagram id="ioyhoYi3yUCj3TehJ-Bd" name="Page-1">
     <mxGraphModel dx="1426" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,9 +31,6 @@
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-28" value="global--machine-list" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="390" y="930" width="680" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-29" value="&lt;span style=&quot;text-align: left&quot;&gt;machine-1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-28">
-          <mxGeometry x="50" y="60" width="70" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-30" value="&lt;span style=&quot;text-align: left&quot;&gt;machine-2&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-28">
           <mxGeometry x="303" y="60" width="70" height="45" as="geometry" />
         </mxCell>
@@ -55,11 +52,17 @@
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-64" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-60">
           <mxGeometry y="104" width="110" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-160" value="machine-1" style="swimlane;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-28">
+          <mxGeometry x="30" y="49" width="130" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-161" value="&lt;span style=&quot;text-align: left&quot;&gt;schedule()&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-160">
+          <mxGeometry x="22" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-33" value="work stealing机制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1520" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="1770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-34" value="hand off机制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1610" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="1860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-35" value="global-process-list" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="387" y="300" width="700" height="490" as="geometry" />
@@ -149,7 +152,7 @@
           <mxGeometry x="397" y="840" width="673" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-79" value="go run main.go" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="30" width="230" height="1100" as="geometry" />
+          <mxGeometry x="10" y="30" width="230" height="1690" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-80" value="创建M0主线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
           <mxGeometry x="10" y="40" width="90" height="40" as="geometry" />
@@ -205,20 +208,68 @@
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-109" value="mstart()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
           <mxGeometry x="10" y="730" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-83" value="G0协程是个关键，当一个协程在M上执行完后，首先会切到G0，由G0去寻找P" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="510" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-86" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YsYjQOcs5sEfoHpkuTJx-120" value="schedule()" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1160" width="280" height="210" as="geometry" />
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-120" value="schedule()" style="swimlane;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
+          <mxGeometry x="30" y="790" width="150" height="310" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-121" value="每61次，从&lt;br&gt;GRQ中找一个G" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-120">
           <mxGeometry x="15" y="40" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YsYjQOcs5sEfoHpkuTJx-122" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;从M绑定的P的LRQ中找一个G&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-120">
-          <mxGeometry x="120" y="38.5" width="90" height="51.5" as="geometry" />
+          <mxGeometry x="15" y="170" width="90" height="51.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-123" value="从其它的P的&lt;br&gt;LRQ中找一个G" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-120">
+          <mxGeometry x="15" y="100" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-124" value="&lt;div style=&quot;text-align: left&quot;&gt;execute(G)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-120">
+          <mxGeometry x="15" y="240" width="90" height="51.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-130" value="runtime.main()" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
+          <mxGeometry x="45" y="1178" width="155" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-131" value="TMD，终于到这个函数了" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-130">
+          <mxGeometry y="26" width="155" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-132" value="创建sysmon线程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-130">
+          <mxGeometry y="52" width="155" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-133" value="runtime_init()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-130">
+          <mxGeometry y="78" width="155" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-138" value="gcenable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-130">
+          <mxGeometry y="104" width="155" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-139" value="main_init" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-130">
+          <mxGeometry y="130" width="155" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-140" value="main_main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-130">
+          <mxGeometry y="156" width="155" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-141" value="exit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-130">
+          <mxGeometry y="182" width="155" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-143" value="goexit" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-79">
+          <mxGeometry x="40" y="1450" width="160" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-144" value="切回到G0协程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-143">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-145" value="把原G状态-变更:_Gdead" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-143">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-146" value="把原G成员变量值清0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-143">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-147" value="解除M-G关系" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-143">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-153" value="把G放入P的FREE队列中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-143">
+          <mxGeometry y="130" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-154" value="schedule()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YsYjQOcs5sEfoHpkuTJx-143">
+          <mxGeometry y="156" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YsYjQOcs5sEfoHpkuTJx-83" value="G0协程是个关键，当一个协程在M上执行完后，首先会切到G0，由G0去寻找P" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
