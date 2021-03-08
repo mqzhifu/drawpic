@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T07:43:09.164Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="Lott-QZEUqrOGPDqYQbf" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T07:43:39.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="h1ycd7_6Dda4UP1ntaMS" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,11 +146,17 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-186" value="&amp;nbsp; 根据权重值&lt;br&gt;获取总&lt;br&gt;小组数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-178">
           <mxGeometry x="57.5" y="200" width="85" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-187" target="WnycxrVpptrqjy_BFZ2X-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-187" value="总人数=0&lt;br&gt;总组数=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-178">
-          <mxGeometry x="57.5" y="280" width="80" height="60" as="geometry" />
+          <mxGeometry x="60.5" y="270" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-189" target="WnycxrVpptrqjy_BFZ2X-190">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-189" value="rule&lt;br&gt;满足匹配成功&lt;br&gt;人数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-178">
-          <mxGeometry x="57.5" y="360" width="85" height="50" as="geometry" />
+          <mxGeometry x="58.5" y="360" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-190" target="WnycxrVpptrqjy_BFZ2X-191">
           <mxGeometry relative="1" as="geometry" />
