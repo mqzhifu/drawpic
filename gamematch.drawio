@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T09:27:17.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="6D_Oc0bYT-mUNPGx9RSs" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T09:27:33.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="vHhSJuhckOCTLkw4OZqc" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -554,7 +554,7 @@
           <mxGeometry x="190" y="340" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-168" value="上浮最大值&lt;br&gt;下浮最大值&lt;br&gt;浮动间距" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="79" y="450" width="85" height="50" as="geometry" />
+          <mxGeometry x="90" y="420" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-169" value="循环：0-100&#xa;步长为上下浮动值间距" style="swimlane;startSize=30;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
           <mxGeometry x="20" y="510" width="260" height="170" as="geometry" />
