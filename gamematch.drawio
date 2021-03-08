@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T09:51:31.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="3YNzZchS6da4bLwIJh0T" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T09:53:05.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="l_fsR0vRMc78RTPaR4uZ" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -547,10 +547,10 @@
           <mxGeometry x="90" y="420" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-169" value="循环：0-100&#xa;步长为上下浮动值间距" style="swimlane;startSize=30;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="30" y="510" width="260" height="360" as="geometry" />
+          <mxGeometry x="30" y="510" width="260" height="450" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-170" value="设置搜索范围" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-169">
-          <mxGeometry x="10" y="40" width="110" height="78" as="geometry" />
+          <mxGeometry x="60" y="40" width="110" height="78" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-171" value="start:i-上浮最大值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-170">
           <mxGeometry y="26" width="110" height="26" as="geometry" />
@@ -559,7 +559,13 @@
           <mxGeometry y="52" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-633" value="&lt;span style=&quot;font-weight: 700&quot;&gt;searchByRange&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-169">
-          <mxGeometry x="10" y="152" width="120" height="60" as="geometry" />
+          <mxGeometry x="55" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-287" value="结果集&lt;br&gt;空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-169">
+          <mxGeometry x="60" y="240" width="96" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-634" value="&lt;span style=&quot;font-weight: 700&quot;&gt;success&lt;br&gt;Conditions&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-169">
+          <mxGeometry x="60" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-178" value="searchByRange" style="swimlane;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
           <mxGeometry x="20" y="990" width="420" height="980" as="geometry" />
@@ -599,6 +605,57 @@
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-194" value="return null" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-178">
           <mxGeometry x="300" y="910" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-192" value="总人数&lt;br&gt;大于&lt;br&gt;成功人数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-178">
+          <mxGeometry x="112.5" y="570" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-191" target="WnycxrVpptrqjy_BFZ2X-192">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="299" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-192" target="WnycxrVpptrqjy_BFZ2X-194">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="530" />
+              <mxPoint x="40" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-628" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-625" target="WnycxrVpptrqjy_BFZ2X-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-195" value="总人数&lt;br&gt;大于&lt;br&gt;成功人数*2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-178">
+          <mxGeometry x="112" y="770" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-193" value="flag &lt;br&gt;FilterFlagAll" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-178">
+          <mxGeometry x="107" y="660" width="96" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-192" target="WnycxrVpptrqjy_BFZ2X-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-193" target="WnycxrVpptrqjy_BFZ2X-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-189" value="rule&lt;br&gt;匹配成功条件&lt;br&gt;N人成为一组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-178">
+          <mxGeometry x="112" y="370" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-187" value="总人数=0&lt;br&gt;总组数=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-178">
+          <mxGeometry x="115" y="280" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-626" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-189" target="WnycxrVpptrqjy_BFZ2X-625">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-187" target="WnycxrVpptrqjy_BFZ2X-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-187" target="WnycxrVpptrqjy_BFZ2X-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-623" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-178" source="WnycxrVpptrqjy_BFZ2X-186" target="WnycxrVpptrqjy_BFZ2X-187">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-196" value="searchFilterDetail" style="swimlane;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
           <mxGeometry x="461" y="990" width="448" height="1440" as="geometry" />
@@ -732,9 +789,6 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-286" value="注： 虽然还是查询操作且主要是查询索引，但真实索引值已经出队列了，如果后面操作失败，要把索引补全，不然数据缺失" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-284">
           <mxGeometry x="10" y="110" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-287" value="结果集&lt;br&gt;空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="650" y="310" width="96" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-292" value="successConditions" style="swimlane;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
           <mxGeometry x="100" y="2180" width="290" height="500" as="geometry" />
         </mxCell>
@@ -842,34 +896,6 @@
             <mxPoint x="173" y="1850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-187" target="WnycxrVpptrqjy_BFZ2X-189">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-187" value="总人数=0&lt;br&gt;总组数=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="132.5" y="1200" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-626" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-189" target="WnycxrVpptrqjy_BFZ2X-625">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-189" value="rule&lt;br&gt;匹配成功条件&lt;br&gt;N人成为一组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="129.5" y="1290" width="85" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-191" target="WnycxrVpptrqjy_BFZ2X-192">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="319" y="1520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-192" target="WnycxrVpptrqjy_BFZ2X-193">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-192" value="总人数&lt;br&gt;大于&lt;br&gt;成功人数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="132" y="1490" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-193" target="WnycxrVpptrqjy_BFZ2X-195">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-631" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-193" target="WnycxrVpptrqjy_BFZ2X-630">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -877,29 +903,6 @@
               <mxPoint x="92" y="1980" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-193" value="flag &lt;br&gt;FilterFlagAll" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="124" y="1590" width="96" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-195" value="总人数&lt;br&gt;大于&lt;br&gt;成功人数*2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="132.5" y="1690" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-187" target="WnycxrVpptrqjy_BFZ2X-194">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-192" target="WnycxrVpptrqjy_BFZ2X-194">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="60" y="1520" />
-              <mxPoint x="60" y="1845" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-623" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-186" target="WnycxrVpptrqjy_BFZ2X-187">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-628" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-625" target="WnycxrVpptrqjy_BFZ2X-192">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-630" value="&lt;span style=&quot;font-weight: 700&quot;&gt;searchFilterDetail&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
           <mxGeometry x="114" y="2070" width="120" height="60" as="geometry" />
