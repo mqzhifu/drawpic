@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T07:10:07.045Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="iB-dn3yJKjCSH6EqLZ4d" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T07:10:55.866Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="47Hss1elEDTKbZubY3eO" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,8 +91,11 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-18" value="匹配机制" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="350" y="400" width="500" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-36" value="group pool" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="880" y="400" width="260" height="310" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-144" value="group total" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="400" width="620" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-36" value="group pool" style="swimlane;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-144">
+          <mxGeometry x="10" y="30" width="260" height="310" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-37" value="group-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-36">
           <mxGeometry x="10" y="40" width="90" height="260" as="geometry" />
@@ -154,8 +157,8 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-73" value="分组ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-64">
           <mxGeometry y="234" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-104" value="小组权重-二级索引" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1245" y="900" width="180" height="150" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-104" value="小组权重-二级索引" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-144">
+          <mxGeometry x="290" y="30" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-105" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-104">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -184,8 +187,8 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-113" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-111">
           <mxGeometry x="90" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-114" value="小组人数权重-二级索引" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="900" width="180" height="150" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-114" value="小组人数权重-二级索引" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-144">
+          <mxGeometry x="290" y="200" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-115" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-114">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -214,8 +217,8 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-123" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-121">
           <mxGeometry x="90" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-124" value="小组超时-二级索引" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="825" y="900" width="180" height="150" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-124" value="小组超时-二级索引" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-144">
+          <mxGeometry x="290" y="370" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-125" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-124">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -244,8 +247,8 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-133" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-131">
           <mxGeometry x="90" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-134" value="小组成员-二级索引" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="595" y="900" width="180" height="150" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-134" value="小组成员-二级索引" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-144">
+          <mxGeometry x="290" y="530" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-135" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-134">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
