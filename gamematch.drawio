@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T08:15:43.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="KZCA0PyYKS7hdxXl2WSW" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T08:31:10.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ecev1sJcdhirQYhGVutx" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
           <mxGeometry y="130" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-18" value="匹配机制" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="300" y="50" width="600" height="2730" as="geometry" />
+          <mxGeometry x="300" y="50" width="600" height="3150" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-145" value="rule&lt;br&gt;基础信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
           <mxGeometry x="160" y="45" width="90" height="60" as="geometry" />
@@ -196,7 +196,7 @@
           <mxGeometry x="310" y="1580" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-196" value="searchFilterDetail" style="swimlane;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="22" y="1720" width="448" height="970" as="geometry" />
+          <mxGeometry x="22" y="1720" width="448" height="1230" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-213" value="小组互相&lt;br&gt;PK" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-196">
           <mxGeometry x="175" y="40" width="78" height="70" as="geometry" />
@@ -263,6 +263,48 @@
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-263" value="注： 虽然还是查询操作且主要是查询索引，但真实索引值已经出队列了，如果后面操作失败，要把索引补全，不然数据缺失" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-255">
           <mxGeometry x="14" y="208" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-264" value="groupPersonCalculateNumberCombination" style="swimlane;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-196">
+          <mxGeometry x="18" y="700" width="352" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-265" value="小组人数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-264">
+          <mxGeometry x="12.5" y="30" width="70" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-266" value="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-265">
+          <mxGeometry y="26" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-267" value="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-265">
+          <mxGeometry y="52" width="70" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-268" value="3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-265">
+          <mxGeometry y="80" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-269" value="4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-265">
+          <mxGeometry y="106" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-270" value="5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-265">
+          <mxGeometry y="132" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-271" value="小级总数量" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-264">
+          <mxGeometry x="82.5" y="30" width="70" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-272" value="10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-271">
+          <mxGeometry y="26" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-273" value="5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-271">
+          <mxGeometry y="52" width="70" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-274" value="14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-271">
+          <mxGeometry y="80" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-275" value="14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-271">
+          <mxGeometry y="106" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-276" value="14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-271">
+          <mxGeometry y="132" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-277" value="根据小组人数&lt;br&gt;排列组合=5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-264">
+          <mxGeometry x="12.5" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-187" target="WnycxrVpptrqjy_BFZ2X-194">
           <mxGeometry relative="1" as="geometry" />
