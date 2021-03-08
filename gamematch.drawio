@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T08:44:37.909Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ucCf5-d6eSUNAOFdeDHA" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T08:47:15.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="yGkHB_osX3ITiSC5xlCj" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
           <mxGeometry y="130" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-18" value="匹配机制" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="300" y="50" width="600" height="3150" as="geometry" />
+          <mxGeometry x="300" y="50" width="600" height="3430" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-145" value="rule&lt;br&gt;基础信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
           <mxGeometry x="160" y="45" width="90" height="60" as="geometry" />
@@ -196,7 +196,7 @@
           <mxGeometry x="310" y="1580" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-196" value="searchFilterDetail" style="swimlane;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="22" y="1720" width="448" height="1400" as="geometry" />
+          <mxGeometry x="22" y="1720" width="448" height="1660" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-213" value="小组互相&lt;br&gt;PK" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-196">
           <mxGeometry x="175" y="40" width="78" height="70" as="geometry" />
@@ -265,7 +265,7 @@
           <mxGeometry x="14" y="208" width="246" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-264" value="groupPersonCalculateNumberCombination" style="swimlane;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-196">
-          <mxGeometry x="18" y="700" width="352" height="680" as="geometry" />
+          <mxGeometry x="18" y="700" width="352" height="510" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-265" value="小组人数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-264">
           <mxGeometry x="12.5" y="30" width="70" height="158" as="geometry" />
@@ -317,6 +317,12 @@
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-283" value="大体就是5层循环，排列组合=5人1组&lt;br&gt;这里只是计算可以组成5人一组&lt;br&gt;并没有将2个小组合并成一个结果集的操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-278">
           <mxGeometry x="20.5" y="40" width="239.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-284" value="单小组-合并成2人小组" style="swimlane;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-196">
+          <mxGeometry x="18" y="1230" width="352" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-285" value="上面计算出来的数据：是单个小组满足人数&lt;br&gt;现在合并成2个小组，也就是一个匹配成功结果集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-284">
+          <mxGeometry x="13" y="40" width="307" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-187" target="WnycxrVpptrqjy_BFZ2X-194">
           <mxGeometry relative="1" as="geometry" />
