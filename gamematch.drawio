@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T07:11:42.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="Xsrq9_0slUV3knNzFH1K" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T07:14:03.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="Dyf1mLMkL9k2CH_fcHNK" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,43 +103,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-147" value="总人数=0&lt;br&gt;总组数=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="290" y="170" width="80" height="60" as="geometry" />
+          <mxGeometry x="430" y="170" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-166" target="WnycxrVpptrqjy_BFZ2X-1091">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-166" target="WnycxrVpptrqjy_BFZ2X-395">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-166" value="权重匹配&lt;br&gt;规则" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="290" y="280" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-168" value="上浮最大值&lt;br&gt;下浮最大值&lt;br&gt;浮动间距" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="90" y="420" width="85" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-169" value="循环：0-100&#xa;步长为上下浮动值间距" style="swimlane;startSize=30;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="30" y="510" width="260" height="450" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-170" value="设置搜索范围" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-169">
-          <mxGeometry x="60" y="40" width="110" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-171" value="start:i-上浮最大值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-170">
-          <mxGeometry y="26" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-172" value="end:i+下浮最大值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-170">
-          <mxGeometry y="52" width="110" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-633" value="&lt;span style=&quot;font-weight: 700&quot;&gt;searchByRange&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-169">
-          <mxGeometry x="55" y="150" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-659" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-169" source="WnycxrVpptrqjy_BFZ2X-287" target="WnycxrVpptrqjy_BFZ2X-634">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-660" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-169" source="WnycxrVpptrqjy_BFZ2X-287" target="WnycxrVpptrqjy_BFZ2X-658">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-287" value="结果集&lt;br&gt;空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-169">
-          <mxGeometry x="60" y="240" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-634" value="&lt;span style=&quot;font-weight: 700&quot;&gt;success&lt;br&gt;Conditions&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-169">
-          <mxGeometry x="10" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-658" value="结束此次循环" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-169">
-          <mxGeometry x="140" y="355" width="95" height="50" as="geometry" />
+          <mxGeometry x="430" y="280" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-178" value="searchByRange" style="swimlane;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
           <mxGeometry x="20" y="1170" width="420" height="980" as="geometry" />
@@ -367,7 +340,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-386" value="获取数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="260" y="34" width="140" height="104" as="geometry" />
+          <mxGeometry x="400" y="34" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-387" value="rule基础信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-386">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -378,8 +351,8 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-390" value="总玩家人数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-386">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-395" value="大循环" style="swimlane;startSize=30;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="330" y="440" width="460" height="640" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-395" value="大循环(没有权重公式)" style="swimlane;startSize=30;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
+          <mxGeometry x="470" y="440" width="460" height="640" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-396" value="搜索全范围" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-395">
           <mxGeometry x="10" y="40" width="150" height="162" as="geometry" />
@@ -469,7 +442,7 @@
           <mxGeometry x="40" y="480" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-617" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
-          <mxGeometry x="437" y="175" width="90" height="50" as="geometry" />
+          <mxGeometry x="909" y="175" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-195" target="WnycxrVpptrqjy_BFZ2X-630">
           <mxGeometry relative="1" as="geometry">
@@ -537,6 +510,42 @@
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-657" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-18" source="WnycxrVpptrqjy_BFZ2X-645" target="WnycxrVpptrqjy_BFZ2X-292">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1091" value="带权重公式匹配" style="swimlane;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-18">
+          <mxGeometry x="41" y="440" width="396" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1092" value="上浮最大值&lt;br&gt;下浮最大值&lt;br&gt;浮动间距" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1091">
+          <mxGeometry x="126" y="40" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1093" value="循环：0-100&#xa;步长为上下浮动值间距" style="swimlane;startSize=30;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1091">
+          <mxGeometry x="66" y="130" width="260" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1094" value="设置搜索范围" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1093">
+          <mxGeometry x="60" y="40" width="110" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1095" value="start:i-上浮最大值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1094">
+          <mxGeometry y="26" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1096" value="end:i+下浮最大值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1094">
+          <mxGeometry y="52" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1097" value="&lt;span style=&quot;font-weight: 700&quot;&gt;searchByRange&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1093">
+          <mxGeometry x="55" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1098" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-1093" source="WnycxrVpptrqjy_BFZ2X-1100" target="WnycxrVpptrqjy_BFZ2X-1101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1099" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-1093" source="WnycxrVpptrqjy_BFZ2X-1100" target="WnycxrVpptrqjy_BFZ2X-1102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1100" value="结果集&lt;br&gt;空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1093">
+          <mxGeometry x="60" y="240" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1101" value="&lt;span style=&quot;font-weight: 700&quot;&gt;success&lt;br&gt;Conditions&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1093">
+          <mxGeometry x="10" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1102" value="结束此次循环" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1093">
+          <mxGeometry x="140" y="355" width="95" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-629" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WnycxrVpptrqjy_BFZ2X-195">
           <mxGeometry relative="1" as="geometry">
@@ -1433,7 +1442,7 @@
           <mxGeometry x="193" y="58.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1029" value="delOneRuleOneGroup" style="swimlane;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="3050" width="180" height="405" as="geometry" />
+          <mxGeometry x="1270" y="2740" width="180" height="405" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1030" value="id&lt;br&gt;是否存在" style="rhombus;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1029">
           <mxGeometry x="38" y="52" width="80" height="80" as="geometry" />
