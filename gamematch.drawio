@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T06:53:48.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="PI8kAZmjcEDqRPcII4nx" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T06:59:52.994Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="K6auNgozJIGH9TJ93jqt" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1365,7 +1365,7 @@
           <mxGeometry x="10" y="37" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1012" value="报名超时-守护协程" style="swimlane;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="2740" width="420" height="480" as="geometry" />
+          <mxGeometry x="300" y="2740" width="420" height="870" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1014" value="获取原数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1012">
           <mxGeometry x="44" y="61" width="140" height="78" as="geometry" />
@@ -1378,6 +1378,57 @@
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1019" value="now+&lt;br&gt;超时时间" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1012">
           <mxGeometry x="55" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1020" value="报名&lt;br&gt;小组超时时间&lt;br&gt;索引" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1012">
+          <mxGeometry x="217" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1021" value="超时&lt;br&gt;小组" style="rhombus;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1012">
+          <mxGeometry x="60" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1022" value="循环-处理每个超时的小组" style="swimlane;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1012">
+          <mxGeometry x="33" y="424" width="307" height="416" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1024" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1022">
+          <mxGeometry x="22" y="56" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1025" value="获取小组基础信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1024">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1026" value="小组基础信息转str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1024">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1027" value="替换str分隔符" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1024">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1028" value="添加一条push" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1024">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1029" value="delOneRuleOneGroup" style="swimlane;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="832" y="3298" width="200" height="342" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1030" value="id&lt;br&gt;是否存在" style="rhombus;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1029">
+          <mxGeometry x="38" y="52" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1032" value="删除操作" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1029">
+          <mxGeometry x="21.5" y="142" width="140" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1033" value="小组基础信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1032">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1034" value="权重索引" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1032">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1035" value="人数权重索引" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1032">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1036" value="玩家列表索引" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1032">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1037" value="超时索引" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1032">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-1038" value="删除每个玩家状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-1032">
+          <mxGeometry y="156" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
