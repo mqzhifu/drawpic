@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T08:54:50.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="i3gZn9lg--6ldnTUXJL6" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T09:03:45.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="DbuX6MUg9X9x_LZK6-nu" version="14.4.5" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1439,16 +1439,16 @@
           <mxGeometry x="15" y="150" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-927" value="报名" style="swimlane;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="2595" y="2787" width="600" height="1463" as="geometry" />
+          <mxGeometry x="2480" y="2338" width="600" height="1372" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-928" value="获取数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
-          <mxGeometry x="205" y="43" width="140" height="52" as="geometry" />
+          <mxGeometry x="160" y="43" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-929" value="rule基础信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WnycxrVpptrqjy_BFZ2X-928" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-932" value="循环处理-每一个玩家" style="swimlane;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
-          <mxGeometry x="85" y="113" width="400" height="407" as="geometry" />
+          <mxGeometry x="21.25" y="122" width="400" height="407" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-933" value="获取玩家状态信息" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-932" vertex="1">
           <mxGeometry x="120" y="40" width="120" height="40" as="geometry" />
@@ -1480,11 +1480,17 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1010" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WnycxrVpptrqjy_BFZ2X-932" source="WnycxrVpptrqjy_BFZ2X-939" target="WnycxrVpptrqjy_BFZ2X-1006" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-927" source="WnycxrVpptrqjy_BFZ2X-940" target="WnycxrVpptrqjy_BFZ2X-941">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-940" value="权重公式" style="rhombus;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
-          <mxGeometry x="220" y="550" width="80" height="63" as="geometry" />
+          <mxGeometry x="220" y="553" width="80" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-927" source="WnycxrVpptrqjy_BFZ2X-993" target="WnycxrVpptrqjy_BFZ2X-1002">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-993" value="初始化小组数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
-          <mxGeometry x="45" y="993" width="140" height="130" as="geometry" />
+          <mxGeometry x="52.5" y="1013" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-994" value="超时时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WnycxrVpptrqjy_BFZ2X-993" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -1498,8 +1504,11 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-997" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WnycxrVpptrqjy_BFZ2X-993" vertex="1">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-927" source="WnycxrVpptrqjy_BFZ2X-986" target="WnycxrVpptrqjy_BFZ2X-998">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-986" value="创建一个小组" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
-          <mxGeometry x="375" y="993" width="140" height="156" as="geometry" />
+          <mxGeometry x="372.5" y="1013" width="140" height="156" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-987" value="权重/gid索引" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WnycxrVpptrqjy_BFZ2X-986" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -1516,8 +1525,11 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-991" value="真正小组元素" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WnycxrVpptrqjy_BFZ2X-986" vertex="1">
           <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-927" source="WnycxrVpptrqjy_BFZ2X-1002" target="WnycxrVpptrqjy_BFZ2X-986">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1002" value="更新玩家状态信息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
-          <mxGeometry x="55" y="1223" width="140" height="104" as="geometry" />
+          <mxGeometry x="52.5" y="1169" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1003" value="小组ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WnycxrVpptrqjy_BFZ2X-1002" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -1529,7 +1541,7 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-998" value="playerStatus.upInfo" style="swimlane;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
-          <mxGeometry x="380" y="1213" width="135" height="151.5" as="geometry" />
+          <mxGeometry x="375" y="1202" width="135" height="151.5" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-999" value="delOldInfo" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-998" vertex="1">
           <mxGeometry x="20" y="34.5" width="90" height="40" as="geometry" />
@@ -1537,8 +1549,8 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1000" value="newOneInfo" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-998" vertex="1">
           <mxGeometry x="20" y="94.5" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-941" value="权重计算" style="swimlane;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="2640" y="3420" width="460" height="337" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-941" value="权重计算" style="swimlane;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
+          <mxGeometry x="21.25" y="652" width="477.5" height="337" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-949" value="计算每个玩家权重值" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-941" vertex="1">
           <mxGeometry x="25" y="38" width="195" height="130" as="geometry" />
@@ -1555,32 +1567,39 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-953" value="将最终公式:计算结果" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WnycxrVpptrqjy_BFZ2X-949" vertex="1">
           <mxGeometry y="104" width="195" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-954" value="sum" style="swimlane;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-941" vertex="1">
-          <mxGeometry x="25" y="221" width="100" height="89" as="geometry" />
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-66" value="&lt;span style=&quot;font-weight: 400&quot;&gt;聚合函数-计算最终小组的权重值&lt;/span&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-941">
+          <mxGeometry x="17.5" y="188" width="440" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-960" value="求和&lt;br&gt;&amp;nbsp;每个玩家权重" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-954" vertex="1">
-          <mxGeometry x="10" y="37" width="80" height="30" as="geometry" />
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-67" value="sum" style="swimlane;html=1;startSize=20;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-66">
+          <mxGeometry y="20" width="110" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-955" value="avge" style="swimlane;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-941" vertex="1">
-          <mxGeometry x="125" y="221" width="100" height="89" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-960" value="求和&lt;br&gt;&amp;nbsp;每个玩家权重" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="UeKw4GtWK2SVQCXc2gRw-67" vertex="1">
+          <mxGeometry x="20" y="46" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-981" value="平均值&lt;br&gt;每个玩家权重" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-955" vertex="1">
-          <mxGeometry x="10" y="37" width="80" height="30" as="geometry" />
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-68" value="avge" style="swimlane;html=1;startSize=20;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-66">
+          <mxGeometry x="110" y="20" width="110" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-956" value="聚合函数-计算最终小组的权重值" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-941" vertex="1">
-          <mxGeometry x="25" y="190" width="405" height="31" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-981" value="平均值&lt;br&gt;每个玩家权重" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="UeKw4GtWK2SVQCXc2gRw-68" vertex="1">
+          <mxGeometry x="20" y="46" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-957" value="min" style="swimlane;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-941" vertex="1">
-          <mxGeometry x="225" y="221" width="100" height="89" as="geometry" />
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-69" value="min" style="swimlane;html=1;startSize=20;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-66">
+          <mxGeometry x="220" y="20" width="110" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-982" value="最小值&lt;br&gt;每个玩家权重" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-957" vertex="1">
-          <mxGeometry x="10" y="37" width="80" height="30" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-982" value="最小值&lt;br&gt;每个玩家权重" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="UeKw4GtWK2SVQCXc2gRw-69" vertex="1">
+          <mxGeometry x="20" y="46" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-959" value="max" style="swimlane;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-941" vertex="1">
-          <mxGeometry x="325" y="221" width="100" height="89" as="geometry" />
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-71" value="max" style="swimlane;html=1;startSize=20;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-66">
+          <mxGeometry x="330" y="20" width="110" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-983" value="最大值&lt;br&gt;每个玩家权重" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-959" vertex="1">
-          <mxGeometry x="10" y="37" width="80" height="30" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-983" value="最大值&lt;br&gt;每个玩家权重" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="UeKw4GtWK2SVQCXc2gRw-71" vertex="1">
+          <mxGeometry x="15" y="45" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-927" source="WnycxrVpptrqjy_BFZ2X-934" target="WnycxrVpptrqjy_BFZ2X-940">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="111" y="585" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1012" value="报名超时-守护协程" style="swimlane;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="2740" width="420" height="660" as="geometry" />
