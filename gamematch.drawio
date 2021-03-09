@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T10:57:36.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="hTD6C2l-N0B_mp6rWMeu" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T01:30:59.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="uJaUs15T4Xwxpq9M2uI8" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -966,7 +966,7 @@
           <mxGeometry y="182" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-807" value="推送机制" style="swimlane;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1754" y="1969" width="676" height="1411" as="geometry" />
+          <mxGeometry x="1754" y="1969" width="676" height="1631" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-808" value="获取列表&lt;br&gt;状态记录" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-807">
           <mxGeometry x="160" y="61" width="80" height="80" as="geometry" />
@@ -984,7 +984,7 @@
           <mxGeometry x="314" y="391" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-813" value="pushAndUpInfo" style="swimlane;shadow=1;startSize=23;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-807">
-          <mxGeometry x="60" y="611" width="600" height="739" as="geometry" />
+          <mxGeometry x="60" y="611" width="600" height="999" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-815" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-813">
           <mxGeometry x="96" y="190" width="380" height="220" as="geometry" />
@@ -1018,6 +1018,18 @@
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-819" value="replace payload" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-813">
           <mxGeometry x="110" y="80" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-835" value="etct service req" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-813">
+          <mxGeometry x="100" y="450" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-836" value="req&lt;br&gt;rs" style="rhombus;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-813">
+          <mxGeometry x="240" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-837" value="upRetryPushInfo" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-813">
+          <mxGeometry x="430" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-838" value="code" style="rhombus;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-813">
+          <mxGeometry x="240" y="650" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
