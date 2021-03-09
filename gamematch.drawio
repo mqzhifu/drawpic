@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T09:03:45.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="DbuX6MUg9X9x_LZK6-nu" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T09:04:21.348Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="wj9RNvruBPKwsBrY-W3M" version="14.4.5" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1508,7 +1508,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-986" value="创建一个小组" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
-          <mxGeometry x="372.5" y="1013" width="140" height="156" as="geometry" />
+          <mxGeometry x="358.75" y="1012" width="140" height="156" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-987" value="权重/gid索引" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WnycxrVpptrqjy_BFZ2X-986" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -1526,7 +1526,12 @@
           <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-927" source="WnycxrVpptrqjy_BFZ2X-1002" target="WnycxrVpptrqjy_BFZ2X-986">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="1221" />
+              <mxPoint x="250" y="1102" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1002" value="更新玩家状态信息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
           <mxGeometry x="52.5" y="1169" width="140" height="104" as="geometry" />
@@ -1541,7 +1546,7 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-998" value="playerStatus.upInfo" style="swimlane;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-927" vertex="1">
-          <mxGeometry x="375" y="1202" width="135" height="151.5" as="geometry" />
+          <mxGeometry x="361.25" y="1202" width="135" height="151.5" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-999" value="delOldInfo" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-998" vertex="1">
           <mxGeometry x="20" y="34.5" width="90" height="40" as="geometry" />
