@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T10:24:53.038Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="KxADYdgYMdLlmcZLg1WF" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T10:30:27.889Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="A7V54KlcBVGllBxREZ5a" version="14.4.5" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="3042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1954,7 +1954,7 @@
           <mxGeometry x="16.5" y="110" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-138" value="GAME-MATCH 初始化" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="966" y="-1800" width="200" height="980" as="geometry" />
+          <mxGeometry x="966" y="-1800" width="200" height="940" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-140" value="指针注册" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-138">
           <mxGeometry x="18" y="46" width="140" height="104" as="geometry" />
@@ -1984,10 +1984,10 @@
           <mxGeometry x="18" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-155" value="初始化&lt;br&gt;playerStatus" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-138">
-          <mxGeometry x="28" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="18" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-156" value="初始化&lt;br&gt;rule httpd status" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-138">
-          <mxGeometry x="28" y="870" width="120" height="60" as="geometry" />
+          <mxGeometry x="19" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-200" value="&lt;span&gt;初始化&lt;br&gt;容器&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-138">
           <mxGeometry x="19" y="620" width="120" height="60" as="geometry" />
@@ -2023,7 +2023,7 @@
           <mxGeometry y="232" width="140" height="24" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-157" value="rule-config-初始化" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="-1802" width="260" height="812" as="geometry" />
+          <mxGeometry x="1190" y="-1802" width="260" height="692" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-158" value="ETCD&lt;br&gt;获取所有&lt;br&gt;rule-list" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-157">
           <mxGeometry x="14" y="48" width="120" height="60" as="geometry" />
@@ -2107,6 +2107,15 @@
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-199" value="match" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-195">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-201" value="信号-初始化" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-940" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-202" value="注册ETCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-201">
+          <mxGeometry x="15" y="50" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-203" value="注册其它&lt;br&gt;微服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-201">
+          <mxGeometry x="16.5" y="110" width="105" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
