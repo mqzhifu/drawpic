@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T09:47:46.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="b8AYfNKvZTFL8Tz3Y9CX" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T09:53:17.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ou6XljRoaZ2eeMs4Stch" version="14.4.5" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2017,6 +2017,38 @@
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-123" value="MSG-微服务名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-107">
           <mxGeometry y="232" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-157" value="rule-config-初始化" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="3568" width="260" height="492" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-158" value="ETCD&lt;br&gt;获取所有&lt;br&gt;rule-list" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-157">
+          <mxGeometry x="14" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-159" value="循环-check rule" style="swimlane;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-157">
+          <mxGeometry x="10" y="168" width="200" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UeKw4GtWK2SVQCXc2gRw-159" source="UeKw4GtWK2SVQCXc2gRw-160" target="UeKw4GtWK2SVQCXc2gRw-162">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="45" y="104" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UeKw4GtWK2SVQCXc2gRw-159" source="UeKw4GtWK2SVQCXc2gRw-160" target="UeKw4GtWK2SVQCXc2gRw-161">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="104" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-160" value="check&lt;br&gt;合格" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-159">
+          <mxGeometry x="60" y="64" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-161" value="中止本次&lt;br&gt;循环" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-159">
+          <mxGeometry x="117" y="164" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-162" value="添加到池" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-159">
+          <mxGeometry x="10" y="164" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
