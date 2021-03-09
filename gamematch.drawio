@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T03:00:57.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="UojOAPxOG_vUSjUJRJoV" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T03:01:27.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="N82dIBoCFGnet7kKN-x_" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1003,6 +1003,9 @@
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-812" value="重试推送" style="swimlane;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-807">
           <mxGeometry x="314" y="391" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-886" value="重试次数&lt;br&gt;过多" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-812">
+          <mxGeometry x="41" y="50" width="89" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-813" value="pushAndUpInfo" style="swimlane;shadow=1;startSize=23;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-807">
           <mxGeometry x="60" y="611" width="690" height="1689" as="geometry" />
