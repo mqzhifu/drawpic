@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T09:40:26.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="fG_V_Gnn_TeqZUTUwuPY" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T09:40:46.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="53hoiUl9UyiTEARECbWN" version="14.4.5" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1993,6 +1993,9 @@
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-147" value="初始化&lt;br&gt;信号监听" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-138">
           <mxGeometry x="19" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-148" value="初始化&lt;br&gt;rule-config" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-138">
+          <mxGeometry x="18" y="530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
