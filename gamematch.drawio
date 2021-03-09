@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T10:37:10.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="j5D6_fRAZYs4Nlgd-lwV" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T11:06:43.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="iGF-pE5ZmmhLJAAcBYid" version="14.4.5" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="3042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1677,7 +1677,7 @@
           <mxGeometry x="193" y="58.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1029" value="删除一个小组(报名)" style="swimlane;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="1270" y="2740" width="200" height="660" as="geometry" />
+          <mxGeometry x="1270" y="2740" width="200" height="400" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1030" value="id&lt;br&gt;是否存在" style="rhombus;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-1029" vertex="1">
           <mxGeometry x="38" y="52" width="80" height="80" as="geometry" />
