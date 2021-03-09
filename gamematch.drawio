@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T09:12:49.693Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="tPPNuDVNkylrm3_ATiR8" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T09:21:51.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="Po_0WQqI-kPMXGlmZ3Cf" version="14.4.5" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1873,6 +1873,15 @@
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-77" value="rule基础信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="2651" y="2389" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-91" value=" 启动流程" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="300" y="3471" width="420" height="489" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-96" value="包里常量&lt;br&gt;获取ETCD&lt;br&gt;IP:PORT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-91">
+          <mxGeometry x="20" y="36" width="100" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-98" value="请求&lt;br&gt;获取ETCD&lt;br&gt;集群IP" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-91">
+          <mxGeometry x="20" y="119" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
