@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T03:04:14.800Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="o5HKcMAv0qLnSCyneTys" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T03:04:53.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="B01zJBA2PfPoQmDrYvre" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -995,11 +995,21 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-809" value="数据为空" style="rhombus;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-807">
           <mxGeometry x="160" y="166" width="80" height="64" as="geometry" />
         </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-890" value="首次推送" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-807" source="WnycxrVpptrqjy_BFZ2X-810" target="WnycxrVpptrqjy_BFZ2X-813">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-891" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-807" source="WnycxrVpptrqjy_BFZ2X-810" target="WnycxrVpptrqjy_BFZ2X-812">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-810" value="判定&lt;br&gt;状态" style="rhombus;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-807">
           <mxGeometry x="160" y="264" width="80" height="56" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-812" value="重试推送" style="swimlane;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-807">
-          <mxGeometry x="114" y="361" width="200" height="339" as="geometry" />
+          <mxGeometry x="100" y="361" width="200" height="339" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-886" value="重试次数&lt;br&gt;过多" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-812">
           <mxGeometry x="41" y="50" width="89" height="70" as="geometry" />
@@ -1155,6 +1165,9 @@
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-885" value="共计4次" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-880">
           <mxGeometry y="130" width="84" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-889" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-807" source="WnycxrVpptrqjy_BFZ2X-887" target="WnycxrVpptrqjy_BFZ2X-813">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
