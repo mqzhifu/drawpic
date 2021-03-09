@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T10:36:47.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="TqhslaBubwVQMrAn_o93" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T10:37:10.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="j5D6_fRAZYs4Nlgd-lwV" version="14.4.5" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="3042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1944,8 +1944,8 @@
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UeKw4GtWK2SVQCXc2gRw-116" target="UeKw4GtWK2SVQCXc2gRw-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UeKw4GtWK2SVQCXc2gRw-131" value="服务-初始化" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="540" y="-1190" width="160" height="200" as="geometry" />
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-131" value="服务-初始化" style="swimlane;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-1190" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-132" value="注册ETCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-131">
           <mxGeometry x="15" y="50" width="105" height="40" as="geometry" />
@@ -2109,7 +2109,7 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-201" value="信号-初始化" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="540" y="-990" width="290" height="420" as="geometry" />
+          <mxGeometry x="620" y="-1004" width="290" height="420" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-204" value="监听信号" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-201">
           <mxGeometry x="90" y="46" width="80" height="80" as="geometry" />
