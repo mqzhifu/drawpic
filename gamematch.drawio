@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T07:43:36.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="Qoqh_pEd1Z-ApRXZDs18" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T07:45:09.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="86jOYhkP0t4w4wesk5sE" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1122,13 +1122,13 @@
           <mxGeometry x="100" y="361" width="200" height="339" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-886" value="重试次数&lt;br&gt;过多" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-812">
-          <mxGeometry x="41" y="50" width="89" height="70" as="geometry" />
+          <mxGeometry x="55.5" y="50" width="89" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-887" value="最后更新时间&lt;br&gt;达到重试时间" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-812">
-          <mxGeometry x="31" y="150" width="109" height="74" as="geometry" />
+          <mxGeometry x="45.5" y="150" width="109" height="74" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-813" value="pushAndUpInfo" style="swimlane;shadow=1;startSize=23;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-807">
-          <mxGeometry x="60" y="760" width="691" height="1540" as="geometry" />
+          <mxGeometry x="60" y="760" width="691" height="1410" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-819" value="replace payload" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-813">
           <mxGeometry x="86" y="50" width="370" height="60" as="geometry" />
@@ -1308,15 +1308,6 @@
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-1260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WnycxrVpptrqjy_BFZ2X-807" source="WnycxrVpptrqjy_BFZ2X-1258" target="WnycxrVpptrqjy_BFZ2X-880">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-892" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WnycxrVpptrqjy_BFZ2X-887">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1910" y="2050" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1790" y="2498" />
-              <mxPoint x="1790" y="2050" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-913" value="httpd" style="swimlane;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="2481" y="1650" width="540" height="620" as="geometry" />
