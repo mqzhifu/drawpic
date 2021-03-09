@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T07:52:30.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="pC4ju5KVI_EB6BUa9Xqs" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T07:53:43.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="sSHGQBTfYf09-4Z9dBzb" version="14.4.4" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1147,8 +1147,8 @@
         <mxCell id="WnycxrVpptrqjy_BFZ2X-813" value="pushAndUpInfo" style="swimlane;shadow=1;startSize=23;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-807">
           <mxGeometry x="60" y="760" width="691" height="1410" as="geometry" />
         </mxCell>
-        <mxCell id="WnycxrVpptrqjy_BFZ2X-819" value="replace payload" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-813">
-          <mxGeometry x="86" y="50" width="370" height="60" as="geometry" />
+        <mxCell id="WnycxrVpptrqjy_BFZ2X-819" value="replace payload(payload分隔符转换)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-813">
+          <mxGeometry x="86" y="50" width="544" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-835" value="etct service req" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-813">
           <mxGeometry x="86" y="370" width="380" height="60" as="geometry" />
