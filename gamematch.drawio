@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T08:53:49.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="hA_6OS1d0qo2nxJmukHQ" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T08:54:50.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="i3gZn9lg--6ldnTUXJL6" version="14.4.5" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1397,7 +1397,7 @@
           <mxGeometry x="2481" y="1650" width="540" height="620" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-914" value="报名" style="swimlane;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-913" vertex="1">
-          <mxGeometry x="55" y="280" width="200" height="270" as="geometry" />
+          <mxGeometry x="29" y="260" width="141" height="270" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-922" value="jsonToStruct&lt;br&gt;HttpReqSign" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-914" vertex="1">
           <mxGeometry x="15" y="40" width="100" height="40" as="geometry" />
@@ -1409,7 +1409,7 @@
           <mxGeometry x="15" y="150" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-916" value="解析" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-913" vertex="1">
-          <mxGeometry x="50" y="58" width="140" height="130" as="geometry" />
+          <mxGeometry x="29" y="39" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-917" value="GET/POST" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="WnycxrVpptrqjy_BFZ2X-916" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -1424,7 +1424,19 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-921" value="uri router" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="WnycxrVpptrqjy_BFZ2X-913" vertex="1">
-          <mxGeometry x="55" y="220" width="425" height="30" as="geometry" />
+          <mxGeometry x="29" y="200" width="425" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-57" value="取消报名" style="swimlane;shadow=1;" vertex="1" parent="WnycxrVpptrqjy_BFZ2X-913">
+          <mxGeometry x="199.5" y="260" width="141" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-58" value="jsonToStruct&lt;br&gt;HttpReqSignCancel" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-57">
+          <mxGeometry x="15" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-59" value="checkData" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-57">
+          <mxGeometry x="15" y="93" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-60" value="checkHttpdState" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-57">
+          <mxGeometry x="15" y="150" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WnycxrVpptrqjy_BFZ2X-927" value="报名" style="swimlane;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="2595" y="2787" width="600" height="1463" as="geometry" />
