@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T07:45:17.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="tYU22RxkLO0rMjp-EJI6" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-17T07:45:28.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="-xkSEc2lNeQy_GVHDoN4" version="14.4.8" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,9 @@
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-12" value="protobuff&lt;br&gt;&amp;nbsp;解缩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-13" value="分发到&lt;br&gt;控制器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
