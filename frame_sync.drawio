@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T08:28:03.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="4DWMmcaWu1hrY2jhlyOy" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-17T08:29:00.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="EHYvsEm3SW8anDgu2_JX" version="14.4.8" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,43 +23,43 @@
           <mxGeometry x="230" y="150" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-7" value="发送消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="675" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-8" value="选定协议号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="785" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-9" value="protobuff&lt;br&gt;压缩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="895" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-10" value="接收消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="675" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-11" value="匹配协议号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="785" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-12" value="protobuff&lt;br&gt;&amp;nbsp;解缩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="895" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-13" value="分发到&lt;br&gt;控制器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1005" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-14" value="产生一个广播&lt;br&gt;动作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1115" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-15" value="选定接收列表&lt;br&gt;uidList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1205" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-16" value="&amp;nbsp;创建消息唯一ID&lt;br&gt;开始分发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1305" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-17" value="断线重连" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="810" width="120" height="60" as="geometry" />
+          <mxGeometry x="1210" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-18" value="回放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="900" width="120" height="60" as="geometry" />
+          <mxGeometry x="1210" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-19" value="预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="1210" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-20" value="玩家A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="380" width="120" height="60" as="geometry" />
@@ -72,6 +72,9 @@
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-23" value="均进入准确状态&lt;br&gt;发送初始化参数&lt;br&gt;进入loading" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-24" value="开始初始化场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
