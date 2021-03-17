@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T08:29:00.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="EHYvsEm3SW8anDgu2_JX" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-17T08:32:19.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="OJvZgJzx5yVcf22Fp4Uu" version="14.4.8" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,13 +44,13 @@
           <mxGeometry x="500" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-14" value="产生一个广播&lt;br&gt;动作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1200" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-15" value="选定接收列表&lt;br&gt;uidList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1300" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-16" value="&amp;nbsp;创建消息唯一ID&lt;br&gt;开始分发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1400" width="120" height="60" as="geometry" />
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-16" value="&amp;nbsp;创建消息唯一ID&lt;br&gt;+帖号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-17" value="断线重连" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="790" width="120" height="60" as="geometry" />
@@ -75,6 +75,9 @@
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-24" value="开始初始化场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-25" value="设置所有玩家&lt;br&gt;初始帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1169" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
