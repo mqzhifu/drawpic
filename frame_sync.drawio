@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T08:54:22.393Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="a3lmn-v0RuZQD_3eTeOd" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-19T09:06:20.699Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="H0iO7SdMOHMRWrjbq8BW" version="14.4.8" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -274,13 +274,13 @@
           <mxGeometry x="1660" y="420" width="610" height="950" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-113" value="推送服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
-          <mxGeometry x="130" y="730" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-122" value="打包帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
-          <mxGeometry x="130" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-155" value="关键帧" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
-          <mxGeometry x="150" y="620" width="80" height="60" as="geometry" />
+          <mxGeometry x="150" y="650" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-120" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
           <mxGeometry x="364" y="630" width="80" height="80" as="geometry" />
@@ -296,6 +296,15 @@
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-156" value="关键帧" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
           <mxGeometry x="372" y="430" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-112" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
+          <mxGeometry x="160" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-157" value="控制/移动&lt;br&gt;指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
+          <mxGeometry x="30" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-158" value="技能/动作&lt;br&gt;指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
+          <mxGeometry x="190" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-106" value="接收玩家&lt;br&gt;指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1810" y="460" width="80" height="80" as="geometry" />
@@ -314,9 +323,6 @@
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-111" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-107">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-112" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="780" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-114" value="接收S端&lt;br&gt;同步指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2028" y="460" width="80" height="80" as="geometry" />
