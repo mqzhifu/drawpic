@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T03:10:01.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="bJbeZ3E4SUD9IXuprH0l" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-19T08:11:57.161Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="teQIdDKw9tW-__NeDTy_" version="14.4.8" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,38 +85,8 @@
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-27" value="开始真正&lt;br&gt;抢着消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-28" value="玩家A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-29" value="释放A技能&lt;br&gt;并向左移动10米" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1910" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-30" value="延迟补偿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="1070" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-32" value="发送指令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="2110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-33" value="这里可以缓存&lt;br&gt;10条一起发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="2010" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-34" value="玩家B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="1800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-35" value="接收到1帧指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="2100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-36" value="解协议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1900" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-37" value="protobuf&lt;br&gt;解内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="2000" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-38" value="执行指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="2200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-39" value="返回服务端&lt;br&gt;确认ack" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="2290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-40" value="&amp;nbsp;如果A挂了&lt;br&gt;通知服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="1800" width="120" height="60" as="geometry" />
@@ -303,6 +273,15 @@
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-105" value="C端" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="1660" y="420" width="610" height="950" as="geometry" />
         </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-113" value="推送服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
+          <mxGeometry x="130" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-122" value="打包帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
+          <mxGeometry x="130" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-155" value="关键帧" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
+          <mxGeometry x="150" y="620" width="80" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-106" value="接收玩家&lt;br&gt;指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1810" y="460" width="80" height="80" as="geometry" />
         </mxCell>
@@ -323,9 +302,6 @@
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-112" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1810" y="780" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-113" value="推送服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1790" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-114" value="接收S端&lt;br&gt;同步指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2028" y="460" width="80" height="80" as="geometry" />
@@ -350,9 +326,6 @@
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-121" value="GPU渲染&lt;br&gt;播放指令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2000" y="1210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-122" value="打包帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1790" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-123" value="告知双方&lt;br&gt;确认收发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2010" y="760" width="120" height="60" as="geometry" />
