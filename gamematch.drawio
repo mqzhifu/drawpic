@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T05:55:03.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="-bsC2Ux4tamekbs1RW-_" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-23T05:57:34.276Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="KURbqJyyyFNy4-ZIYsF-" version="14.4.9" type="github">
   <diagram id="A0iVA3XITitb1yduaHoC" name="Page-1">
     <mxGraphModel dx="1426" dy="3042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1912,16 +1912,16 @@
           <mxGeometry x="130" y="1091" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-113" value="初始化&lt;br&gt;LOG" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="UeKw4GtWK2SVQCXc2gRw-91" vertex="1">
+          <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNgWo8tPdBNgmLgPq8IE-1" value="初始化本地变量" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-91">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-99" value="初始化&lt;br&gt;ETCD" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="UeKw4GtWK2SVQCXc2gRw-91" vertex="1">
-          <mxGeometry x="10" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PNgWo8tPdBNgmLgPq8IE-1" value="设置ENV&lt;br&gt;环境变量" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="UeKw4GtWK2SVQCXc2gRw-91">
-          <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-100" value="ETCD-初始化" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="741" y="-1800" width="200" height="410" as="geometry" />
+          <mxGeometry x="720" y="-1810" width="200" height="420" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-102" value="&lt;span&gt;集群IP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="UeKw4GtWK2SVQCXc2gRw-100" vertex="1">
           <mxGeometry x="15" y="180" width="75" height="45" as="geometry" />
@@ -2013,13 +2013,13 @@
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-200" value="&lt;span&gt;初始化&lt;br&gt;容器&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="UeKw4GtWK2SVQCXc2gRw-138" vertex="1">
           <mxGeometry x="19" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UeKw4GtWK2SVQCXc2gRw-107" value="本地-常量" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="400" y="-550" width="140" height="256" as="geometry" />
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-107" value="本地-变量" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-1810" width="140" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="UeKw4GtWK2SVQCXc2gRw-119" value="ENV-环境名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-119" value="ENV-环境" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UeKw4GtWK2SVQCXc2gRw-108" value="获取ETCD-IP:PORT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-108" value="短连接IP:POST" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-109" value="项目配置文件ETCD前缀" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
@@ -2028,20 +2028,17 @@
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-110" value="日志基础目录" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UeKw4GtWK2SVQCXc2gRw-115" value="redis:IP:PORT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-118" value="本地-服务名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
           <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UeKw4GtWK2SVQCXc2gRw-118" value="本地-服务名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-120" value="本地-服务注册端口号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
           <mxGeometry y="156" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UeKw4GtWK2SVQCXc2gRw-120" value="本地-服务注册端口号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
-          <mxGeometry y="182" width="140" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-122" value="ETCD-微服务前缀" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
-          <mxGeometry y="208" width="140" height="24" as="geometry" />
+          <mxGeometry y="182" width="140" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="UeKw4GtWK2SVQCXc2gRw-123" value="MSG-微服务名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
-          <mxGeometry y="232" width="140" height="24" as="geometry" />
+        <mxCell id="UeKw4GtWK2SVQCXc2gRw-123" value="其它-微服务名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UeKw4GtWK2SVQCXc2gRw-107" vertex="1">
+          <mxGeometry y="206" width="140" height="24" as="geometry" />
         </mxCell>
         <mxCell id="UeKw4GtWK2SVQCXc2gRw-157" value="rule-config-初始化" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="1190" y="-1802" width="260" height="692" as="geometry" />
@@ -2172,6 +2169,9 @@
           <mxGeometry x="85" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PNgWo8tPdBNgmLgPq8IE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UeKw4GtWK2SVQCXc2gRw-113" target="UeKw4GtWK2SVQCXc2gRw-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNgWo8tPdBNgmLgPq8IE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PNgWo8tPdBNgmLgPq8IE-1" target="UeKw4GtWK2SVQCXc2gRw-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
