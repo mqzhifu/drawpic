@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T10:00:47.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="MS37FLxnnsl3vMvSHuxx" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T10:03:06.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="wziXstE7jcqO4zj063_I" version="14.5.1" type="github">
   <diagram id="oreRLML-fIO5NJBekv-O" name="Page-1">
     <mxGraphModel dx="1426" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,31 +35,37 @@
           <mxGeometry x="580" y="430" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J0xB7BxQOzIGuj7F1EcN-18" value="开发者" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-40" width="530" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="J0xB7BxQOzIGuj7F1EcN-1" value="开发者1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-18">
-          <mxGeometry x="10" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="J0xB7BxQOzIGuj7F1EcN-5" value="开发者2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-18">
-          <mxGeometry x="205" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="J0xB7BxQOzIGuj7F1EcN-6" value="开发者3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-18">
-          <mxGeometry x="380" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="-40" width="370" height="240" as="geometry" />
         </mxCell>
         <mxCell id="J0xB7BxQOzIGuj7F1EcN-2" value="小组/玩家&lt;br&gt;报名信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-18">
           <mxGeometry x="10" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J0xB7BxQOzIGuj7F1EcN-19" value="小组ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-18">
-          <mxGeometry x="380" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J0xB7BxQOzIGuj7F1EcN-28" value="dev1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-18">
+          <mxGeometry x="20" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J0xB7BxQOzIGuj7F1EcN-29" value="dev2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-18">
+          <mxGeometry x="120" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J0xB7BxQOzIGuj7F1EcN-30" value="devN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-18">
+          <mxGeometry x="220" y="40" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J0xB7BxQOzIGuj7F1EcN-24" value="http" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="100" y="220" width="530" height="130" as="geometry" />
+          <mxGeometry x="100" y="220" width="1170" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="J0xB7BxQOzIGuj7F1EcN-7" value="http&lt;br&gt;/sign" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-24">
-          <mxGeometry x="30" y="50" width="130" height="60" as="geometry" />
+        <mxCell id="J0xB7BxQOzIGuj7F1EcN-26" value="v1/match/succ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-24">
+          <mxGeometry x="570" y="50" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J0xB7BxQOzIGuj7F1EcN-20" value="http&lt;br&gt;/signCancel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-24">
-          <mxGeometry x="380" y="50" width="130" height="60" as="geometry" />
+        <mxCell id="J0xB7BxQOzIGuj7F1EcN-27" value="v1/match/error" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-24">
+          <mxGeometry x="790" y="50" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J0xB7BxQOzIGuj7F1EcN-31" value="http&lt;br&gt;/sign" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-24">
+          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J0xB7BxQOzIGuj7F1EcN-32" value="http&lt;br&gt;/signCancel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J0xB7BxQOzIGuj7F1EcN-24">
+          <mxGeometry x="180" y="50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
