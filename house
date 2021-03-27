@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T03:31:18.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.1" etag="u6JYT_tlgwpnov4AM3sE" type="github"><diagram id="ykzgua8wus2jYUg1yYXg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-27T04:14:55.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="QTc-a98LGwTwg3lxBJvh" version="14.5.1" type="github">
+  <diagram id="ykzgua8wus2jYUg1yYXg" name="Page-1">
+    <mxGraphModel dx="2066" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-2" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="170" y="270" width="590" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-3" value="master" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-2">
+          <mxGeometry y="20" width="160" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-4" value="user" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-2">
+          <mxGeometry x="160" y="20" width="130" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-5" value="sales" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-2">
+          <mxGeometry x="290" y="20" width="140" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-11" value="添加房主信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-5">
+          <mxGeometry x="20" y="40" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-13" value="录入房源信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-5">
+          <mxGeometry x="20" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-10" value="finance" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-2">
+          <mxGeometry x="430" y="20" width="160" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-14" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="840" y="270" width="360" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-15" value="house" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-14">
+          <mxGeometry y="20" width="120" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-18" value="等待&lt;br&gt;录入订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-15">
+          <mxGeometry x="10" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-16" value="orders" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-14">
+          <mxGeometry x="120" y="20" width="120" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-17" value="paylist" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-14">
+          <mxGeometry x="240" y="20" width="120" height="590" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
