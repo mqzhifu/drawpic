@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T04:17:28.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="qoq0MZkARdDRi7U7taIG" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-27T04:32:16.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="CyL0SAYMCDgQuCP1OEaN" version="14.5.1" type="github">
   <diagram id="ykzgua8wus2jYUg1yYXg" name="Page-1">
     <mxGraphModel dx="2066" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="izwIfq4v2d3wLdPxsKk7-2" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="170" y="270" width="590" height="610" as="geometry" />
+          <mxGeometry x="10" y="260" width="800" height="840" as="geometry" />
         </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-3" value="master" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-2">
-          <mxGeometry y="20" width="160" height="590" as="geometry" />
+          <mxGeometry y="20" width="160" height="820" as="geometry" />
         </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-4" value="user" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-2">
-          <mxGeometry x="160" y="20" width="130" height="590" as="geometry" />
+          <mxGeometry x="160" y="20" width="130" height="820" as="geometry" />
         </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-5" value="sales" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-2">
-          <mxGeometry x="290" y="20" width="140" height="590" as="geometry" />
+          <mxGeometry x="290" y="20" width="230" height="820" as="geometry" />
         </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-11" value="添加房主信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-5">
           <mxGeometry x="20" y="40" width="100" height="50" as="geometry" />
@@ -31,14 +31,23 @@
         <mxCell id="izwIfq4v2d3wLdPxsKk7-25" value="&lt;span&gt;录入&lt;/span&gt;&lt;br&gt;&lt;span&gt;用户订单&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-5">
           <mxGeometry x="20" y="360" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-27" value="生成支付列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-5">
+          <mxGeometry x="20" y="450" width="100" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-10" value="finance" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-2">
-          <mxGeometry x="430" y="20" width="160" height="590" as="geometry" />
+          <mxGeometry x="520" y="20" width="280" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-30" value="用户订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-10">
+          <mxGeometry x="10" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-31" value="房主订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-10">
+          <mxGeometry x="150" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-14" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="840" y="270" width="360" height="610" as="geometry" />
+          <mxGeometry x="840" y="270" width="360" height="840" as="geometry" />
         </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-15" value="house" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-14">
-          <mxGeometry y="20" width="120" height="590" as="geometry" />
+          <mxGeometry y="20" width="120" height="820" as="geometry" />
         </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-18" value="等待录入&lt;br&gt;房主订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-15">
           <mxGeometry x="10" y="110" width="100" height="50" as="geometry" />
@@ -46,8 +55,11 @@
         <mxCell id="izwIfq4v2d3wLdPxsKk7-20" value="等待租赁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-15">
           <mxGeometry x="10" y="200" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-26" value="出租中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-15">
+          <mxGeometry x="10" y="360" width="100" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-16" value="orders" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-14">
-          <mxGeometry x="120" y="20" width="120" height="590" as="geometry" />
+          <mxGeometry x="120" y="20" width="120" height="820" as="geometry" />
         </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-22" value="等待生成&lt;br&gt;支付列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-16">
           <mxGeometry x="10" y="200" width="100" height="50" as="geometry" />
@@ -55,11 +67,17 @@
         <mxCell id="izwIfq4v2d3wLdPxsKk7-23" value="待结算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-16">
           <mxGeometry x="10" y="280" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-28" value="待结算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-16">
+          <mxGeometry x="10" y="440" width="100" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-17" value="paylist" style="swimlane;html=1;startSize=20;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-14">
-          <mxGeometry x="240" y="20" width="120" height="590" as="geometry" />
+          <mxGeometry x="240" y="20" width="120" height="820" as="geometry" />
         </mxCell>
         <mxCell id="izwIfq4v2d3wLdPxsKk7-24" value="待完结" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-17">
           <mxGeometry x="10" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="izwIfq4v2d3wLdPxsKk7-29" value="待完结" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="izwIfq4v2d3wLdPxsKk7-17">
+          <mxGeometry x="10" y="440" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
