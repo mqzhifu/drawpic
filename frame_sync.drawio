@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T09:21:36.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="494RB_9LcC5iQwAH9jXT" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T09:30:38.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="73k9-LYYx8yKyVh0LHzS" version="14.5.3" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -279,8 +279,26 @@
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-158" value="技能/动作&lt;br&gt;指令" style="rounded=0;whiteSpace=wrap;html=1;" parent="lB1xqUMFaD_04WnO8Ldx-105" vertex="1">
           <mxGeometry x="190" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-123" value="告知双方&lt;br&gt;确认收发" style="rounded=1;whiteSpace=wrap;html=1;" parent="lB1xqUMFaD_04WnO8Ldx-105" vertex="1">
-          <mxGeometry x="344" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-7" value="当前&lt;br&gt;逻辑帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-105">
+          <mxGeometry x="10" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-115" value="逻辑指令帧-缓存集" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="lB1xqUMFaD_04WnO8Ldx-105" vertex="1">
+          <mxGeometry x="344" y="240" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-116" value="向左10步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lB1xqUMFaD_04WnO8Ldx-115" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-117" value="向前2步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lB1xqUMFaD_04WnO8Ldx-115" vertex="1">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-118" value="释放技能1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lB1xqUMFaD_04WnO8Ldx-115" vertex="1">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-119" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lB1xqUMFaD_04WnO8Ldx-115" vertex="1">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lB1xqUMFaD_04WnO8Ldx-123" value="告知S端&lt;br&gt;已收到&lt;br&gt;逻辑帧" style="rounded=1;whiteSpace=wrap;html=1;" parent="lB1xqUMFaD_04WnO8Ldx-105" vertex="1">
+          <mxGeometry x="352" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-106" value="接收本地&lt;br&gt;玩家指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1810" y="460" width="80" height="80" as="geometry" />
@@ -302,21 +320,6 @@
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-114" value="接收S端&lt;br&gt;同步指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2028" y="460" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-115" value="逻辑指令帧-缓存集" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1998" y="580" width="140" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-116" value="向左10步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lB1xqUMFaD_04WnO8Ldx-115" vertex="1">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-117" value="向前2步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lB1xqUMFaD_04WnO8Ldx-115" vertex="1">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-118" value="释放技能1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lB1xqUMFaD_04WnO8Ldx-115" vertex="1">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-119" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lB1xqUMFaD_04WnO8Ldx-115" vertex="1">
-          <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-127" value="S端" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="2350" y="420" width="450" height="990" as="geometry" />
