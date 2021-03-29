@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T11:47:57.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="BffA8w-1i1d7zdS5f1l-" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T11:51:35.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="p6DiCDsrQPWNumSLyQLR" version="14.5.3" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -482,10 +482,10 @@
           <mxGeometry x="86.11" y="534.4741379310345" width="120" height="54.16927899686521" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-117" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
-          <mxGeometry x="520" y="516.4137931034483" width="72.22570532915361" height="72.22570532915361" as="geometry" />
+          <mxGeometry x="530" y="760.1837931034482" width="72.22570532915361" height="72.22570532915361" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-118" value="GPU渲染&lt;br&gt;播放指令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
-          <mxGeometry x="500" y="651.8369905956113" width="120" height="54.16927899686521" as="geometry" />
+          <mxGeometry x="510" y="895.6069905956113" width="120" height="54.16927899686521" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-119" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
           <mxGeometry x="110" y="299.7366771159875" width="72.22570532915361" height="72.22570532915361" as="geometry" />
@@ -494,7 +494,7 @@
           <mxGeometry x="90" y="416.8013793103448" width="120" height="54.16927899686521" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-121" value="逻辑指令帧-缓存集" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
-          <mxGeometry x="500" y="344.8777429467085" width="140" height="119.8934169278997" as="geometry" />
+          <mxGeometry x="510" y="588.6477429467085" width="140" height="119.8934169278997" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-122" value="向左10步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-121">
           <mxGeometry y="26" width="140" height="23.473354231974923" as="geometry" />
@@ -512,7 +512,7 @@
           <mxGeometry x="500" y="153.4796238244514" width="120" height="54.16927899686521" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-127" value="接收新帧号&lt;br&gt;更新旧帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
-          <mxGeometry x="500" y="245.56739811912226" width="120" height="54.16927899686521" as="geometry" />
+          <mxGeometry x="500" y="343.0673981191223" width="120" height="54.16927899686521" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-128" value="接收本地&lt;br&gt;玩家指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
           <mxGeometry x="110" y="46.94670846394985" width="72.22570532915361" height="72.22570532915361" as="geometry" />
@@ -578,6 +578,20 @@
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-146" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-142">
           <mxGeometry y="96.42006269592477" width="140" height="23.473354231974923" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-115" source="4TKYKufiDU9-YVt1ajdF-182" target="4TKYKufiDU9-YVt1ajdF-141">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="273" />
+              <mxPoint x="70" y="777" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-182" value="告知发送方&lt;br&gt;已收到&lt;br&gt;逻辑帧" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
+          <mxGeometry x="496.1100000000001" y="245.56962382445138" width="120" height="54.16927899686521" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-184" value="是否&lt;br&gt;跳帧" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
+          <mxGeometry x="516" y="440.79999999999995" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-91" source="4TKYKufiDU9-YVt1ajdF-126" target="4TKYKufiDU9-YVt1ajdF-94">
           <mxGeometry relative="1" as="geometry">
