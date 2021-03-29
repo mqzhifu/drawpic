@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T11:09:59.968Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Y304lwH4CS1kg_Oedikh" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T11:15:25.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="soXHrHjYRQWUbBZQjB9u" version="14.5.3" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,6 +357,138 @@
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-6" value="heart&lt;br&gt;beat" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="4TKYKufiDU9-YVt1ajdF-1" vertex="1">
           <mxGeometry x="180" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-20" value="psr" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="3200" y="469.5" width="1270" height="1041" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-21" value="C端" style="swimlane;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-20">
+          <mxGeometry x="40" y="56" width="610" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-22" value="推送服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="130" y="664.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-23" value="更新帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="130" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-25" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="372" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-26" value="GPU渲染&lt;br&gt;播放指令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="352" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-27" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="150" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-28" value="控制/移动&lt;br&gt;指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="30" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-29" value="技能/动作&lt;br&gt;指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="190" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-31" value="逻辑指令帧-缓存集" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="342" y="360" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-32" value="向左10步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-31">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-33" value="向前2步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-31">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-34" value="释放技能1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-31">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-35" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-31">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-36" value="告知S端&lt;br&gt;已收到&lt;br&gt;逻辑帧" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="352" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-37" value="更新帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="344" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-39" value="接收本地&lt;br&gt;玩家指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="150" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-40" value="接收S端&lt;br&gt;同步指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="364" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-61" value="玩家逻辑指令帧-缓存集" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-21">
+          <mxGeometry x="120" y="144" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-62" value="向左10步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-61">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-63" value="向前2步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-61">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-64" value="释放技能1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-61">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-65" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-61">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-41" value="S端" style="swimlane;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-20">
+          <mxGeometry x="720" y="51" width="450" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-41" source="4TKYKufiDU9-YVt1ajdF-43" target="4TKYKufiDU9-YVt1ajdF-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-43" value="&lt;span&gt;接收消息&lt;br&gt;确认&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-41">
+          <mxGeometry x="310" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-41" source="4TKYKufiDU9-YVt1ajdF-45" target="4TKYKufiDU9-YVt1ajdF-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-45" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-41">
+          <mxGeometry x="90" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-41" source="4TKYKufiDU9-YVt1ajdF-47" target="4TKYKufiDU9-YVt1ajdF-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-47" value="通知所有玩家" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-41">
+          <mxGeometry x="70" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-41" source="4TKYKufiDU9-YVt1ajdF-49" target="4TKYKufiDU9-YVt1ajdF-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-49" value="阻塞&lt;br&gt;等待所有玩家&lt;br&gt;确认" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-41">
+          <mxGeometry x="90" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-41" source="4TKYKufiDU9-YVt1ajdF-51" target="4TKYKufiDU9-YVt1ajdF-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-51" value="所有玩家&lt;br&gt;均确认" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-41">
+          <mxGeometry x="290" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-41" source="4TKYKufiDU9-YVt1ajdF-53" target="4TKYKufiDU9-YVt1ajdF-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-53" value="更新-帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-41">
+          <mxGeometry x="290" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-54" value="玩家逻辑指令帧-缓存集" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-41">
+          <mxGeometry x="60" y="150" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-55" value="向左10步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-54">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-56" value="向前2步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-54">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-57" value="释放技能1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-54">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-58" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-54">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-59" value="&lt;span&gt;接收玩家&lt;/span&gt;&lt;br&gt;&lt;span&gt;指令帧&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-41">
+          <mxGeometry x="90" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-41" source="4TKYKufiDU9-YVt1ajdF-59" target="4TKYKufiDU9-YVt1ajdF-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-30" value="当前&lt;br&gt;逻辑帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="1130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
