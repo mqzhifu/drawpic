@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T11:34:40.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="NCxZCD83_OmfsX7ykleH" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T11:36:09.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="m2AlxMO91Zef90hHYLJY" version="14.5.3" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -391,8 +391,14 @@
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-75" value="通知所有玩家" style="rounded=0;whiteSpace=wrap;html=1;" parent="lB1xqUMFaD_04WnO8Ldx-127" vertex="1">
           <mxGeometry x="70" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4TKYKufiDU9-YVt1ajdF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lB1xqUMFaD_04WnO8Ldx-127" source="lB1xqUMFaD_04WnO8Ldx-76" target="lB1xqUMFaD_04WnO8Ldx-128">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lB1xqUMFaD_04WnO8Ldx-127" source="lB1xqUMFaD_04WnO8Ldx-76" target="lB1xqUMFaD_04WnO8Ldx-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="660" />
+              <mxPoint x="430" y="80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-76" value="阻塞&lt;br&gt;等待所有玩家&lt;br&gt;确认" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="lB1xqUMFaD_04WnO8Ldx-127" vertex="1">
           <mxGeometry x="90" y="620" width="80" height="80" as="geometry" />
@@ -443,10 +449,10 @@
           <mxGeometry x="90" y="552" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-120" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="lB1xqUMFaD_04WnO8Ldx-105" vertex="1">
-          <mxGeometry x="510" y="612" width="80" height="80" as="geometry" />
+          <mxGeometry x="520" y="572" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-121" value="GPU渲染&lt;br&gt;播放指令" style="rounded=1;whiteSpace=wrap;html=1;" parent="lB1xqUMFaD_04WnO8Ldx-105" vertex="1">
-          <mxGeometry x="490" y="742" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="722" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-112" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="lB1xqUMFaD_04WnO8Ldx-105" vertex="1">
           <mxGeometry x="110" y="332" width="80" height="80" as="geometry" />
@@ -455,7 +461,7 @@
           <mxGeometry x="90" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-115" value="逻辑指令帧-缓存集" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="lB1xqUMFaD_04WnO8Ldx-105" vertex="1">
-          <mxGeometry x="490" y="405" width="140" height="130" as="geometry" />
+          <mxGeometry x="500" y="382" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-116" value="向左10步" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lB1xqUMFaD_04WnO8Ldx-115" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -516,8 +522,27 @@
         <mxCell id="4TKYKufiDU9-YVt1ajdF-7" value="当前&lt;br&gt;逻辑帧号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-75">
           <mxGeometry x="550" y="1112" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-76" source="lB1xqUMFaD_04WnO8Ldx-123" target="lB1xqUMFaD_04WnO8Ldx-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="270" />
+              <mxPoint x="810" y="392" />
+              <mxPoint x="1040" y="392" />
+              <mxPoint x="1040" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-155" value="关键帧" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1410" y="1070" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lB1xqUMFaD_04WnO8Ldx-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2060" y="1300" />
+              <mxPoint x="2060" y="630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
