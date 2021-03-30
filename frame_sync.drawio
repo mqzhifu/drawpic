@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T07:46:08.698Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="RxZgi5VIpqNVJ5dBVh1g" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-30T07:47:00.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="jtKVxAJCtwy_IYVfy_IH" version="14.5.3" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -227,16 +227,13 @@
           <mxGeometry x="1560" y="478" width="1320" height="1152" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-127" value="S端" style="swimlane;" parent="4TKYKufiDU9-YVt1ajdF-76" vertex="1">
-          <mxGeometry x="770" y="63.19749216300941" width="450" height="893.7931034482759" as="geometry" />
+          <mxGeometry x="780" y="71.99749216300941" width="450" height="893.7931034482759" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="lB1xqUMFaD_04WnO8Ldx-127" source="lB1xqUMFaD_04WnO8Ldx-128" target="4TKYKufiDU9-YVt1ajdF-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-128" value="&lt;span&gt;接收消息&lt;br&gt;确认&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="lB1xqUMFaD_04WnO8Ldx-127" vertex="1">
           <mxGeometry x="310" y="36.112852664576806" width="72.22570532915361" height="72.22570532915361" as="geometry" />
-        </mxCell>
-        <mxCell id="4TKYKufiDU9-YVt1ajdF-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lB1xqUMFaD_04WnO8Ldx-127" source="lB1xqUMFaD_04WnO8Ldx-74" target="lB1xqUMFaD_04WnO8Ldx-122" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-74" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="lB1xqUMFaD_04WnO8Ldx-127" vertex="1">
           <mxGeometry x="90" y="315.98746081504703" width="72.22570532915361" height="72.22570532915361" as="geometry" />
@@ -245,7 +242,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-75" value="通知所有玩家" style="rounded=0;whiteSpace=wrap;html=1;" parent="lB1xqUMFaD_04WnO8Ldx-127" vertex="1">
-          <mxGeometry x="70" y="552.5266457680251" width="120" height="54.16927899686521" as="geometry" />
+          <mxGeometry x="70" y="619.0066457680251" width="120" height="54.16927899686521" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="lB1xqUMFaD_04WnO8Ldx-127" source="lB1xqUMFaD_04WnO8Ldx-76" target="lB1xqUMFaD_04WnO8Ldx-128" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -257,7 +254,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-76" value="阻塞&lt;br&gt;等待所有玩家&lt;br&gt;确认" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="lB1xqUMFaD_04WnO8Ldx-127" vertex="1">
-          <mxGeometry x="90" y="669.8934169278997" width="72.22570532915361" height="72.22570532915361" as="geometry" />
+          <mxGeometry x="93.89" y="750.0034169278997" width="72.22570532915361" height="72.22570532915361" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lB1xqUMFaD_04WnO8Ldx-127" source="4TKYKufiDU9-YVt1ajdF-11" target="lB1xqUMFaD_04WnO8Ldx-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -296,7 +293,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-122" value="当前帧号+1&lt;br&gt;更新本地帖号" style="rounded=0;whiteSpace=wrap;html=1;" parent="lB1xqUMFaD_04WnO8Ldx-127" vertex="1">
-          <mxGeometry x="70" y="444.1880877742947" width="120" height="54.16927899686521" as="geometry" />
+          <mxGeometry x="70" y="528.7980877742947" width="120" height="54.16927899686521" as="geometry" />
+        </mxCell>
+        <mxCell id="RgCLrjDy3juvYgGhgx1Q-12" value="将所有玩家指令集&lt;br&gt;打包成一个逻辑帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lB1xqUMFaD_04WnO8Ldx-127">
+          <mxGeometry x="66.11000000000001" y="428.80250783699057" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-75" value="lock-step" style="swimlane;" parent="4TKYKufiDU9-YVt1ajdF-76" vertex="1">
           <mxGeometry width="1320" height="1152" as="geometry" />
