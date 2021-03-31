@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T08:11:45.206Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="olMSfi8TI4aiugRzNrSe" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T08:15:42.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="FkAAQsQelBgKCEhEkxjY" version="14.5.3" type="github">
   <diagram id="-5-jdhdnzxWbleS5DXfY" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xpekft2s3czFJu0R9MVT-2" value="浏览器页面-HTML-1" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="120" y="90" width="650" height="570" as="geometry" />
+          <mxGeometry x="120" y="90" width="770" height="820" as="geometry" />
         </mxCell>
-        <mxCell id="xpekft2s3czFJu0R9MVT-4" value="一个9宫格子的地图" style="swimlane;" vertex="1" parent="xpekft2s3czFJu0R9MVT-2">
-          <mxGeometry x="60" y="140" width="310" height="330" as="geometry" />
+        <mxCell id="xpekft2s3czFJu0R9MVT-4" value="一个9宫格子的地图-玩家A" style="swimlane;" vertex="1" parent="xpekft2s3czFJu0R9MVT-2">
+          <mxGeometry x="40" y="340" width="310" height="330" as="geometry" />
         </mxCell>
         <mxCell id="xpekft2s3czFJu0R9MVT-6" value="我是一个DIV" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="xpekft2s3czFJu0R9MVT-4">
           <mxGeometry x="140" y="120" width="30" height="60" as="geometry" />
@@ -32,6 +32,48 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xpekft2s3czFJu0R9MVT-11" value="" style="endArrow=classic;html=1;" edge="1" parent="xpekft2s3czFJu0R9MVT-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="234" y="160" as="sourcePoint" />
+            <mxPoint x="294" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.29;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xpekft2s3czFJu0R9MVT-2" source="xpekft2s3czFJu0R9MVT-13" target="xpekft2s3czFJu0R9MVT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-13" value="JS代码" style="swimlane;" vertex="1" parent="xpekft2s3czFJu0R9MVT-2">
+          <mxGeometry x="40" y="50" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-14" value="Web socket&lt;br&gt;接收指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xpekft2s3czFJu0R9MVT-13">
+          <mxGeometry x="30" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-15" value="操作下图中的小人&lt;br&gt;DIV移动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xpekft2s3czFJu0R9MVT-13">
+          <mxGeometry x="30" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-18" value="一个9宫格子的地图-玩家B" style="swimlane;" vertex="1" parent="xpekft2s3czFJu0R9MVT-2">
+          <mxGeometry x="390" y="340" width="310" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-19" value="我是一个DIV" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="xpekft2s3czFJu0R9MVT-18">
+          <mxGeometry x="140" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-20" value="" style="endArrow=classic;html=1;" edge="1" parent="xpekft2s3czFJu0R9MVT-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="154.5" y="100" as="sourcePoint" />
+            <mxPoint x="154.5" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-21" value="" style="endArrow=classic;html=1;" edge="1" parent="xpekft2s3czFJu0R9MVT-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="154.5" y="240" as="sourcePoint" />
+            <mxPoint x="155" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-22" value="" style="endArrow=classic;html=1;" edge="1" parent="xpekft2s3czFJu0R9MVT-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="150" as="sourcePoint" />
+            <mxPoint x="40" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-23" value="" style="endArrow=classic;html=1;" edge="1" parent="xpekft2s3czFJu0R9MVT-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="234" y="160" as="sourcePoint" />
             <mxPoint x="294" y="160" as="targetPoint" />
