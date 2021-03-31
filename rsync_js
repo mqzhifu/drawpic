@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T08:15:42.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="FkAAQsQelBgKCEhEkxjY" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T08:16:37.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="8TSocNuRen6kGqGLCEGm" version="14.5.3" type="github">
   <diagram id="-5-jdhdnzxWbleS5DXfY" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,6 +78,18 @@
             <mxPoint x="234" y="160" as="sourcePoint" />
             <mxPoint x="294" y="160" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-27" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xpekft2s3czFJu0R9MVT-2" target="xpekft2s3czFJu0R9MVT-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="140" as="sourcePoint" />
+            <mxPoint x="290" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-24" value="GO/PHP/JAVA-后端" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="970" y="90" width="210" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="xpekft2s3czFJu0R9MVT-25" value="WS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xpekft2s3czFJu0R9MVT-24">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
