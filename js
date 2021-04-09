@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T17:30:45.874Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="kkGoXgwtQa6HFJe0T5Ps" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T17:42:10.630Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="0DJT7pV6w1SAqB4dFIVY" version="14.5.10" type="github">
   <diagram id="LrraPFq0eXV1uZRZkaON" name="Page-1">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,14 +25,14 @@
         <mxCell id="sybjIimh572mPHmOb9K9-10" value="扫描每个&lt;br&gt;&amp;lt;script&amp;gt;&amp;lt;/script&lt;br&gt;块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="182" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sybjIimh572mPHmOb9K9-12" value="语法分析&lt;br&gt;词法分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sybjIimh572mPHmOb9K9-12" value="词法分析&lt;br&gt;转TOKEN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sybjIimh572mPHmOb9K9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sybjIimh572mPHmOb9K9-13" target="sybjIimh572mPHmOb9K9-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sybjIimh572mPHmOb9K9-13" value="语法错误" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="400" width="80" height="80" as="geometry" />
+          <mxGeometry x="130" y="490" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sybjIimh572mPHmOb9K9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sybjIimh572mPHmOb9K9-14">
           <mxGeometry relative="1" as="geometry">
@@ -40,19 +40,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sybjIimh572mPHmOb9K9-14" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sybjIimh572mPHmOb9K9-17" value="预处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sybjIimh572mPHmOb9K9-18" value="var他function&lt;br&gt;开头的语句" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="765" width="120" height="60" as="geometry" />
+        <mxCell id="sybjIimh572mPHmOb9K9-18" value="寻找关键字var和function&lt;br&gt;开头的语句" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sybjIimh572mPHmOb9K9-19" value="开始执行代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sybjIimh572mPHmOb9K9-19" value="开始&lt;br&gt;正式执行代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="905" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sybjIimh572mPHmOb9K9-20" value="语法树" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="520" width="120" height="60" as="geometry" />
+        <mxCell id="sybjIimh572mPHmOb9K9-20" value="语法分析&lt;br&gt;转&lt;br&gt;语法树AST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sybjIimh572mPHmOb9K9-21" value="execution context" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="40" y="1400" width="360" height="230" as="geometry" />
@@ -101,6 +101,9 @@
         </mxCell>
         <mxCell id="sybjIimh572mPHmOb9K9-37" value="global execution context" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="60" y="1130" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sybjIimh572mPHmOb9K9-45" value="将其提升" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
