@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T17:42:10.630Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="0DJT7pV6w1SAqB4dFIVY" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T17:45:58.441Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="fVTwDPDi0cqBn3opvY8i" version="14.5.10" type="github">
   <diagram id="LrraPFq0eXV1uZRZkaON" name="Page-1">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
           <mxGeometry x="120" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sybjIimh572mPHmOb9K9-19" value="开始&lt;br&gt;正式执行代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="905" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sybjIimh572mPHmOb9K9-20" value="语法分析&lt;br&gt;转&lt;br&gt;语法树AST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
@@ -102,7 +102,7 @@
         <mxCell id="sybjIimh572mPHmOb9K9-37" value="global execution context" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="60" y="1130" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="sybjIimh572mPHmOb9K9-45" value="将其提升" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sybjIimh572mPHmOb9K9-45" value="将其作用域-提升&lt;br&gt;不会真的赋值&lt;br&gt;而是undefine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
