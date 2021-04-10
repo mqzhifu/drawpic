@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-10T14:22:19.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="yAfIctvxysKi6OWICtsB" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-10T14:32:07.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="GwITBX0no7_MrCYdE6pQ" version="14.5.7" type="github">
   <diagram id="JWh0TKqKFBKpZKqdShiZ" name="Page-1">
     <mxGraphModel dx="2066" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
           <mxGeometry x="190" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-36" value="Parser" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="525" y="550" width="310" height="730" as="geometry" />
+          <mxGeometry x="467.5" y="700" width="532.5" height="1320" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-38" value="&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;词法分析&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
           <mxGeometry x="25" y="50" width="120" height="60" as="geometry" />
@@ -120,7 +120,37 @@
           <mxGeometry x="45" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-43" value="abstract Syntax tree" style="swimlane;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
-          <mxGeometry x="35" y="460" width="200" height="200" as="geometry" />
+          <mxGeometry x="35" y="460" width="475" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-44" value="寻找关键字var和function&lt;br&gt;开头的语句" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-43">
+          <mxGeometry x="27.5" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-45" value="将其作用域-提升&lt;br&gt;不会真的赋值&lt;br&gt;而是undefine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-43">
+          <mxGeometry x="27.5" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-61" value="exec context " style="swimlane;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-43">
+          <mxGeometry x="167.5" y="40" width="290" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-62" value="Variable object" style="swimlane;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-61">
+          <mxGeometry x="15" y="130" width="170" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-63" value="arguments&lt;br&gt;Object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-62">
+          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-64" value="function&lt;br&gt;Declaration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-62">
+          <mxGeometry x="20" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-65" value="var&lt;br&gt;Declaration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-62">
+          <mxGeometry x="20" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-66" value="scopeChain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-61">
+          <mxGeometry x="15" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-67" value="确定this指向" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-61">
+          <mxGeometry x="15" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-68" value="给变量赋值：undefine&lt;br&gt;函数名与变量名冲突忽略亦是名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1510" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
