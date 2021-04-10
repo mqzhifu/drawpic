@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-10T05:42:57.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="2C9iGM3JIaPWY-avuwjk" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-10T05:49:45.283Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Qd6p5TWjjSo945cGKYlI" version="14.5.7" type="github">
   <diagram id="LrraPFq0eXV1uZRZkaON" name="Page-1">
-    <mxGraphModel dx="2066" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,13 +109,25 @@
           <mxGeometry x="310" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GLcWbR3M1zZIn5tLLmif-1" value="Variable object" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1730" width="520" height="636" as="geometry" />
+          <mxGeometry x="520" y="1730" width="250" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-3" value="arguments&lt;br&gt;Object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-1">
+          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-4" value="function&lt;br&gt;Declaration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-1">
+          <mxGeometry x="20" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-5" value="var&lt;br&gt;Declaration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-1">
+          <mxGeometry x="20" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GLcWbR3M1zZIn5tLLmif-2" value="scopeChain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="1527" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GLcWbR3M1zZIn5tLLmif-3" value="arguments&lt;br&gt;Object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1910" width="120" height="60" as="geometry" />
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-7" value="Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2210" width="540" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-8" value="ECObj = { &lt;br&gt;scopChain： {...}, &lt;br&gt;variableObject: { arguments: { 0: 22, length: 1 },&lt;br&gt;&amp;nbsp;i: 22,&lt;br&gt;&amp;nbsp;c: pointer to function c() &lt;br&gt;a: undefined,&lt;br&gt;&amp;nbsp;b: undefined }, &lt;br&gt;this: { ... } &lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-7">
+          <mxGeometry x="20" y="50" width="300" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
