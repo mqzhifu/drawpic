@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-10T14:13:47.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="pO_oFKVMFYdMSdESrL9U" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-10T14:21:19.170Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="OWA45nMGXAZIFHxwJomi" version="14.5.7" type="github">
   <diagram id="JWh0TKqKFBKpZKqdShiZ" name="Page-1">
     <mxGraphModel dx="2066" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -74,13 +74,53 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-27" value="浏览器&lt;br&gt;接收到一段&lt;br&gt;HTML代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8b7u_k2Y_S55KY2sijHm-28" target="8b7u_k2Y_S55KY2sijHm-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-28" value="分析文本中&lt;br&gt;包含的&lt;br&gt;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8b7u_k2Y_S55KY2sijHm-29" target="8b7u_k2Y_S55KY2sijHm-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-29" value="等待请求" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="640" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-30" value="分析文本中&lt;br&gt;html标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-31" value="渲染" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-32" value="分析&lt;br&gt;.css .js .jpg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-33" value="发送请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-36" value="Parser" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="525" y="550" width="310" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-38" value="&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;词法分析&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
+          <mxGeometry x="25" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-39" value="一段段的token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
+          <mxGeometry x="25" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-40" value="语法解析器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
+          <mxGeometry x="25" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-41" value="语法错误" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
+          <mxGeometry x="45" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-43" value="abstract Syntax tree" style="swimlane;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
+          <mxGeometry x="35" y="460" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
