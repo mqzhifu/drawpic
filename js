@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-10T06:03:43.789Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="R80Vj3vYx_XfwWT4ra3x" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-10T06:06:22.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="19QBZnVzOTEtV-wIxjZ5" version="14.5.7" type="github">
   <diagram id="LrraPFq0eXV1uZRZkaON" name="Page-1">
     <mxGraphModel dx="2046" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,8 +108,17 @@
         <mxCell id="sybjIimh572mPHmOb9K9-47" value="代码执行被拆分成&lt;br&gt;两个阶段：预处理&lt;br&gt;执行" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GLcWbR3M1zZIn5tLLmif-1" value="Variable object" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1730" width="170" height="340" as="geometry" />
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-7" value="Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2210" width="540" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-8" value="ECObj = { &lt;br&gt;scopChain： {...}, &lt;br&gt;variableObject: { arguments: { 0: 22, length: 1 },&lt;br&gt;&amp;nbsp;i: 22,&lt;br&gt;&amp;nbsp;c: pointer to function c() &lt;br&gt;a: undefined,&lt;br&gt;&amp;nbsp;b: undefined }, &lt;br&gt;this: { ... } &lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-7">
+          <mxGeometry x="20" y="50" width="300" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-9" value="Creation Stage" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1720" width="440" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-1" value="Variable object" style="swimlane;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-9">
+          <mxGeometry x="37" y="130" width="170" height="340" as="geometry" />
         </mxCell>
         <mxCell id="GLcWbR3M1zZIn5tLLmif-3" value="arguments&lt;br&gt;Object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-1">
           <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
@@ -120,17 +129,14 @@
         <mxCell id="GLcWbR3M1zZIn5tLLmif-5" value="var&lt;br&gt;Declaration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-1">
           <mxGeometry x="20" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GLcWbR3M1zZIn5tLLmif-2" value="scopeChain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1527" width="120" height="60" as="geometry" />
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-2" value="scopeChain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-9">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GLcWbR3M1zZIn5tLLmif-7" value="Container" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="30" y="2210" width="540" height="500" as="geometry" />
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-14" value="确定this指向" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-9">
+          <mxGeometry x="40" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GLcWbR3M1zZIn5tLLmif-8" value="ECObj = { &lt;br&gt;scopChain： {...}, &lt;br&gt;variableObject: { arguments: { 0: 22, length: 1 },&lt;br&gt;&amp;nbsp;i: 22,&lt;br&gt;&amp;nbsp;c: pointer to function c() &lt;br&gt;a: undefined,&lt;br&gt;&amp;nbsp;b: undefined }, &lt;br&gt;this: { ... } &lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-7">
-          <mxGeometry x="20" y="50" width="300" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="GLcWbR3M1zZIn5tLLmif-9" value="Creation Stage" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="790" y="1720" width="200" height="200" as="geometry" />
+        <mxCell id="GLcWbR3M1zZIn5tLLmif-15" value="&lt;span style=&quot;text-align: left&quot;&gt;upvalue&lt;br&gt;父级引用列表&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GLcWbR3M1zZIn5tLLmif-9">
+          <mxGeometry x="270" y="40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
