@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T11:36:06.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="H9xhLU5g7gw0LbwwblFY" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T11:36:30.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="1tAxLcPa58jbGPyg7ALy" version="14.6.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,10 +164,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-57" value="等待玩家&lt;br&gt;操作指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
-          <mxGeometry x="70" y="1770" width="80" height="80" as="geometry" />
+          <mxGeometry x="70" y="1780" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-60" value="有玩家&lt;br&gt;掉线" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
-          <mxGeometry x="72" y="1890" width="80" height="80" as="geometry" />
+          <mxGeometry x="70" y="1890" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-68" value="接收玩家&lt;br&gt;指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
           <mxGeometry x="64" y="1290" width="80" height="80" as="geometry" />
@@ -433,11 +433,6 @@
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fGajkBScvO4oU9Z-KqmK-43" target="-j769H0zRMGYNG9kzOUK-57">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-j769H0zRMGYNG9kzOUK-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-j769H0zRMGYNG9kzOUK-60">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="1970" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fGajkBScvO4oU9Z-KqmK-32" target="-j769H0zRMGYNG9kzOUK-68">
           <mxGeometry relative="1" as="geometry" />
