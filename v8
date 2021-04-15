@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T06:30:53.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="rijvR9clgyjf7UUqudQn" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T06:37:31.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="XIf6Fx2sXMH2YwqTIE4q" version="14.6.0" type="github">
   <diagram id="JWh0TKqKFBKpZKqdShiZ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -176,11 +176,14 @@
         <mxCell id="8b7u_k2Y_S55KY2sijHm-43" value="abstract Syntax tree" style="swimlane;" parent="8b7u_k2Y_S55KY2sijHm-36" vertex="1">
           <mxGeometry x="28.75" y="470" width="475" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="8b7u_k2Y_S55KY2sijHm-44" value="寻找关键字&lt;br&gt;var和function&lt;br&gt;开头的语句" style="rounded=0;whiteSpace=wrap;html=1;" parent="8b7u_k2Y_S55KY2sijHm-43" vertex="1">
-          <mxGeometry x="27.5" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8b7u_k2Y_S55KY2sijHm-43" source="8b7u_k2Y_S55KY2sijHm-44" target="8b7u_k2Y_S55KY2sijHm-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8b7u_k2Y_S55KY2sijHm-45" value="将其作用域-提升&lt;br&gt;不会真的赋值&lt;br&gt;而是undefine" style="rounded=0;whiteSpace=wrap;html=1;" parent="8b7u_k2Y_S55KY2sijHm-43" vertex="1">
-          <mxGeometry x="27.5" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-44" value="寻找关键字&lt;br&gt;var和function&lt;br&gt;开头的语句" style="rounded=0;whiteSpace=wrap;html=1;" parent="8b7u_k2Y_S55KY2sijHm-43" vertex="1">
+          <mxGeometry x="16.25" y="154" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-45" value="将其作用域-提升&lt;br&gt;设置为：undefine" style="rounded=0;whiteSpace=wrap;html=1;" parent="8b7u_k2Y_S55KY2sijHm-43" vertex="1">
+          <mxGeometry x="16.25" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-61" value="execuction context  object" style="swimlane;" parent="8b7u_k2Y_S55KY2sijHm-43" vertex="1">
           <mxGeometry x="167.5" y="40" width="290" height="600" as="geometry" />
@@ -203,8 +206,11 @@
         <mxCell id="8b7u_k2Y_S55KY2sijHm-67" value="确定this指向" style="rounded=0;whiteSpace=wrap;html=1;" parent="8b7u_k2Y_S55KY2sijHm-61" vertex="1">
           <mxGeometry x="15" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8b7u_k2Y_S55KY2sijHm-70" value="这里有2个阶段&lt;br&gt;1、创建阶段VO&lt;br&gt;2、执行阶段AO" style="rounded=0;whiteSpace=wrap;html=1;" parent="8b7u_k2Y_S55KY2sijHm-43" vertex="1">
-          <mxGeometry x="27.5" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8b7u_k2Y_S55KY2sijHm-43" source="-M2EXJkgTvvf2OwQ2ZDC-115" target="8b7u_k2Y_S55KY2sijHm-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-115" value="创建上下文对象&lt;br&gt;此时为&lt;br&gt;&amp;nbsp;VO状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-43">
+          <mxGeometry x="16.25" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-24" value="一段段的token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
           <mxGeometry x="150" y="70" width="97.5" height="20" as="geometry" />
@@ -306,7 +312,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-33" value="&lt;span&gt;从执行栈里&lt;/span&gt;&lt;br&gt;&lt;span&gt;取出待执行帧&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="1190" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-38" target="-M2EXJkgTvvf2OwQ2ZDC-33">
           <mxGeometry relative="1" as="geometry" />
@@ -468,6 +474,9 @@
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-110" value="接收一段JS代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="861" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-114" value="此时状态为&lt;br&gt;AO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="990" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
