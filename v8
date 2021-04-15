@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T03:56:32.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="VjNcc-yA-5OzevC8xhIM" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T03:57:14.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Wubae0Lvv7Dn8PAiwRLC" version="14.6.0" type="github">
   <diagram id="JWh0TKqKFBKpZKqdShiZ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -456,6 +456,9 @@
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-104" value="生成最终&lt;br&gt;DOM树" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="990" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-106" value="这里随时会接收JS引擎调用&lt;br&gt;也就是说JS引擎会跟其它模块有通信" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1010" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
