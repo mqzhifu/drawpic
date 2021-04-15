@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T06:46:26.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="XOw5UmrGP2Ri_y4xRlwL" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T06:53:24.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="B1URT8wYCzX30v4qu-iz" version="14.6.0" type="github">
   <diagram id="JWh0TKqKFBKpZKqdShiZ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,7 +181,7 @@
           <mxGeometry x="16.25" y="154" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-61" value="execuction context  object" style="swimlane;" parent="8b7u_k2Y_S55KY2sijHm-43" vertex="1">
-          <mxGeometry x="167.5" y="40" width="290" height="600" as="geometry" />
+          <mxGeometry x="221.25" y="50" width="232.5" height="600" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-62" value="Variable object" style="swimlane;" parent="8b7u_k2Y_S55KY2sijHm-61" vertex="1">
           <mxGeometry x="15" y="160" width="170" height="340" as="geometry" />
@@ -220,7 +220,7 @@
           <mxGeometry x="16.25" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-126" value="将其作用域-提升" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-43">
-          <mxGeometry x="16.25" y="270" width="140" height="104" as="geometry" />
+          <mxGeometry x="6.25" y="270" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-127" value="普通变量：undefine" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-M2EXJkgTvvf2OwQ2ZDC-126">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -231,6 +231,21 @@
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-129" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-M2EXJkgTvvf2OwQ2ZDC-126">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-135" value="冲突" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-43">
+          <mxGeometry x="16.25" y="400" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-136" value="变量名与函数名一样，优先函数名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-M2EXJkgTvvf2OwQ2ZDC-135">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-137" value="函数名冲突，优先最后面的函数名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-M2EXJkgTvvf2OwQ2ZDC-135">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-138" value="变量名冲突，优先前面的变量名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-M2EXJkgTvvf2OwQ2ZDC-135">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.542;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="8b7u_k2Y_S55KY2sijHm-43" source="-M2EXJkgTvvf2OwQ2ZDC-135" target="-M2EXJkgTvvf2OwQ2ZDC-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-24" value="一段段的token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
           <mxGeometry x="150" y="70" width="97.5" height="20" as="geometry" />
         </mxCell>
@@ -239,9 +254,6 @@
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-69" value="ECObj = { &lt;br&gt;scopChain： {...}, &lt;br&gt;variableObject: { arguments: { 0: 22, length: 1 },&lt;br&gt;&amp;nbsp;i: 22,&lt;br&gt;&amp;nbsp;c: pointer to function c() &lt;br&gt;a: undefined,&lt;br&gt;&amp;nbsp;b: undefined }, &lt;br&gt;this: { ... } &lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="8b7u_k2Y_S55KY2sijHm-36" vertex="1">
           <mxGeometry x="260" y="40" width="260" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="8b7u_k2Y_S55KY2sijHm-68" value="给变量赋值：undefine&lt;br&gt;函数名与变量名冲突忽略亦是名" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="1840" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-73" value="从堆里拿出该&lt;br&gt;执行帧的代码段&lt;br&gt;逐条分析执行" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1190" y="1140" width="120" height="60" as="geometry" />
