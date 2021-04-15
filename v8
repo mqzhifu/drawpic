@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T03:38:40.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="3o_Kru9o_1Gg1Cotjgif" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T03:40:41.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="w2BzBM4qn5ZvevUBojXA" version="14.6.0" type="github">
   <diagram id="JWh0TKqKFBKpZKqdShiZ" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,8 +210,11 @@
         <mxCell id="8b7u_k2Y_S55KY2sijHm-68" value="给变量赋值：undefine&lt;br&gt;函数名与变量名冲突忽略亦是名" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="1580" width="180" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8b7u_k2Y_S55KY2sijHm-69" target="8b7u_k2Y_S55KY2sijHm-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-69" value="ECObj = { &lt;br&gt;scopChain： {...}, &lt;br&gt;variableObject: { arguments: { 0: 22, length: 1 },&lt;br&gt;&amp;nbsp;i: 22,&lt;br&gt;&amp;nbsp;c: pointer to function c() &lt;br&gt;a: undefined,&lt;br&gt;&amp;nbsp;b: undefined }, &lt;br&gt;this: { ... } &lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1130" width="300" height="360" as="geometry" />
+          <mxGeometry x="80" y="820" width="300" height="360" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-71" value="送入&lt;br&gt;执行栈" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="683.75" y="2210" width="120" height="60" as="geometry" />
@@ -245,23 +248,13 @@
         <mxCell id="8b7u_k2Y_S55KY2sijHm-76" value="该行代码&lt;br&gt;是否&lt;br&gt;函数" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1204" y="1110" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8b7u_k2Y_S55KY2sijHm-78" target="8b7u_k2Y_S55KY2sijHm-79">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8b7u_k2Y_S55KY2sijHm-78" value="查找&lt;br&gt;本地作用域" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="1440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8b7u_k2Y_S55KY2sijHm-79" target="8b7u_k2Y_S55KY2sijHm-80">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8b7u_k2Y_S55KY2sijHm-79" value="查找&lt;br&gt;父级作用域" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="1550" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8b7u_k2Y_S55KY2sijHm-80" value="查找&lt;br&gt;全局作用域" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="1660" width="120" height="60" as="geometry" />
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8b7u_k2Y_S55KY2sijHm-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="1610" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sUz9FjBh3TEE-FKvhTqJ-2" value="字节码" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1204" y="1970" width="120" height="60" as="geometry" />
+          <mxGeometry x="1420" y="1600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lLA2GWRvzvIA8UxvSEJc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lLA2GWRvzvIA8UxvSEJc-4" target="8b7u_k2Y_S55KY2sijHm-27" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -357,11 +350,46 @@
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-59" value="找到代码段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-63" target="-M2EXJkgTvvf2OwQ2ZDC-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-63" value="正常执行一行&lt;br&gt;简单类型的代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1184" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-65" value="&lt;span&gt;发现有&lt;/span&gt;&lt;br&gt;&lt;span&gt;变量&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1184" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-68" target="-M2EXJkgTvvf2OwQ2ZDC-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-68" target="sUz9FjBh3TEE-FKvhTqJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-68" value="&lt;span&gt;查找&lt;/span&gt;&lt;br&gt;&lt;span&gt;本地作用域&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1204" y="1460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-70" target="-M2EXJkgTvvf2OwQ2ZDC-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-70" value="查找&lt;br&gt;父级作用域" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1204" y="1590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-71" target="sUz9FjBh3TEE-FKvhTqJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-71" target="-M2EXJkgTvvf2OwQ2ZDC-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-71" value="查找&lt;br&gt;全局作用域" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1204" y="1714" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-77" value="报错&lt;br&gt;结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1184" y="1850" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
