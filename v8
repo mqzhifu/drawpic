@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T06:58:21.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="MrgyX1E2qjsImlMqlp6W" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T06:59:00.265Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="bkeRL5nP-zmIAuSRma8-" version="14.6.0" type="github">
   <diagram id="JWh0TKqKFBKpZKqdShiZ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -339,7 +339,7 @@
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-33" target="-M2EXJkgTvvf2OwQ2ZDC-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-33" value="&lt;span&gt;从执行栈里&lt;/span&gt;&lt;br&gt;&lt;span&gt;取出待执行帧&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-33" value="&lt;span&gt;从执行栈里&lt;/span&gt;&lt;br&gt;&lt;span&gt;取出待执行帧&lt;br&gt;也就是ECB&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-38" target="-M2EXJkgTvvf2OwQ2ZDC-33">
