@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T03:41:03.752Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="_C16qjwq_OpghiYDep69" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T03:41:55.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="oT48TX4hWDEKZsXSQZfy" version="14.6.0" type="github">
   <diagram id="JWh0TKqKFBKpZKqdShiZ" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,8 +141,10 @@
         <mxCell id="8b7u_k2Y_S55KY2sijHm-32" value="分析&lt;br&gt;.css .js .jpg" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8b7u_k2Y_S55KY2sijHm-36" target="8b7u_k2Y_S55KY2sijHm-71">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8b7u_k2Y_S55KY2sijHm-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="743.75" y="2210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-36" value="Parser" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="477.5" y="770" width="532.5" height="1370" as="geometry" />
@@ -215,9 +217,6 @@
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-69" value="ECObj = { &lt;br&gt;scopChain： {...}, &lt;br&gt;variableObject: { arguments: { 0: 22, length: 1 },&lt;br&gt;&amp;nbsp;i: 22,&lt;br&gt;&amp;nbsp;c: pointer to function c() &lt;br&gt;a: undefined,&lt;br&gt;&amp;nbsp;b: undefined }, &lt;br&gt;this: { ... } &lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="80" y="820" width="300" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="8b7u_k2Y_S55KY2sijHm-71" value="送入&lt;br&gt;执行栈" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="683.75" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-73" value="从堆里拿出该&lt;br&gt;执行帧的代码段&lt;br&gt;逐条分析执行" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1180" y="880" width="120" height="60" as="geometry" />
@@ -346,12 +345,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1100" y="780" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1100" y="784" />
+              <mxPoint x="1060" y="784" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-59" value="找到代码段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1120" width="120" height="60" as="geometry" />
+          <mxGeometry x="1020" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-63" target="-M2EXJkgTvvf2OwQ2ZDC-65">
           <mxGeometry relative="1" as="geometry" />
@@ -399,6 +398,18 @@
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-79" value="CPU真实&lt;br&gt;执行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1430" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-82" target="-M2EXJkgTvvf2OwQ2ZDC-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-82" value="切换到&lt;br&gt;主进程&lt;br&gt;守护模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-83" target="-M2EXJkgTvvf2OwQ2ZDC-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-83" value="&lt;span&gt;送入&lt;/span&gt;&lt;br&gt;&lt;span&gt;执行栈&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
