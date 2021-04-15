@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T04:05:12.536Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="MgxDeAD1z6xpjbzfbA-9" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T06:30:53.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="rijvR9clgyjf7UUqudQn" version="14.6.0" type="github">
   <diagram id="JWh0TKqKFBKpZKqdShiZ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-36" value="Parser" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="460" y="1610" width="532.5" height="1370" as="geometry" />
+          <mxGeometry x="470" y="980" width="532.5" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8b7u_k2Y_S55KY2sijHm-36" source="8b7u_k2Y_S55KY2sijHm-38" target="8b7u_k2Y_S55KY2sijHm-40">
           <mxGeometry relative="1" as="geometry" />
@@ -176,7 +176,7 @@
         <mxCell id="8b7u_k2Y_S55KY2sijHm-43" value="abstract Syntax tree" style="swimlane;" parent="8b7u_k2Y_S55KY2sijHm-36" vertex="1">
           <mxGeometry x="28.75" y="470" width="475" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="8b7u_k2Y_S55KY2sijHm-44" value="寻找关键字var和function&lt;br&gt;开头的语句" style="rounded=0;whiteSpace=wrap;html=1;" parent="8b7u_k2Y_S55KY2sijHm-43" vertex="1">
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-44" value="寻找关键字&lt;br&gt;var和function&lt;br&gt;开头的语句" style="rounded=0;whiteSpace=wrap;html=1;" parent="8b7u_k2Y_S55KY2sijHm-43" vertex="1">
           <mxGeometry x="27.5" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-45" value="将其作用域-提升&lt;br&gt;不会真的赋值&lt;br&gt;而是undefine" style="rounded=0;whiteSpace=wrap;html=1;" parent="8b7u_k2Y_S55KY2sijHm-43" vertex="1">
@@ -207,19 +207,16 @@
           <mxGeometry x="27.5" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-24" value="一段段的token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
-          <mxGeometry x="172.5" y="70" width="97.5" height="20" as="geometry" />
+          <mxGeometry x="150" y="70" width="97.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-27" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-36">
           <mxGeometry x="236.5" y="290" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8b7u_k2Y_S55KY2sijHm-69" value="ECObj = { &lt;br&gt;scopChain： {...}, &lt;br&gt;variableObject: { arguments: { 0: 22, length: 1 },&lt;br&gt;&amp;nbsp;i: 22,&lt;br&gt;&amp;nbsp;c: pointer to function c() &lt;br&gt;a: undefined,&lt;br&gt;&amp;nbsp;b: undefined }, &lt;br&gt;this: { ... } &lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="8b7u_k2Y_S55KY2sijHm-36" vertex="1">
+          <mxGeometry x="260" y="40" width="260" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-68" value="给变量赋值：undefine&lt;br&gt;函数名与变量名冲突忽略亦是名" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="1840" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8b7u_k2Y_S55KY2sijHm-69" target="8b7u_k2Y_S55KY2sijHm-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8b7u_k2Y_S55KY2sijHm-69" value="ECObj = { &lt;br&gt;scopChain： {...}, &lt;br&gt;variableObject: { arguments: { 0: 22, length: 1 },&lt;br&gt;&amp;nbsp;i: 22,&lt;br&gt;&amp;nbsp;c: pointer to function c() &lt;br&gt;a: undefined,&lt;br&gt;&amp;nbsp;b: undefined }, &lt;br&gt;this: { ... } &lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1450" width="300" height="360" as="geometry" />
         </mxCell>
         <mxCell id="8b7u_k2Y_S55KY2sijHm-73" value="从堆里拿出该&lt;br&gt;执行帧的代码段&lt;br&gt;逐条分析执行" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1190" y="1140" width="120" height="60" as="geometry" />
@@ -465,6 +462,9 @@
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-108" value="Parser&lt;br&gt;解析器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-M2EXJkgTvvf2OwQ2ZDC-110" target="8b7u_k2Y_S55KY2sijHm-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-110" value="接收一段JS代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="861" width="120" height="60" as="geometry" />
