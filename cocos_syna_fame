@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T11:22:18.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="IOai40p36YkO0h9lD8-3" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T11:22:56.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="nhvMm2eITYTbAJRKSVqL" version="14.6.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,6 +15,14 @@
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-13" value="登陆成功" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-1" vertex="1">
           <mxGeometry x="40" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-j769H0zRMGYNG9kzOUK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-1" source="fGajkBScvO4oU9Z-KqmK-32" target="-j769H0zRMGYNG9kzOUK-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="1425" />
+              <mxPoint x="20" y="1670" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-32" value="准备开始" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-1" vertex="1">
           <mxGeometry x="50" y="1395" width="120" height="60" as="geometry" />
@@ -45,6 +53,9 @@
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-33" value="取消准备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-1">
           <mxGeometry x="50" y="1495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-j769H0zRMGYNG9kzOUK-43" value="loading&lt;br&gt;...&lt;br&gt;..." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-1">
+          <mxGeometry x="70" y="1630" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-2" value="cocos/前端" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="320" y="40" width="200" height="2470" as="geometry" />
