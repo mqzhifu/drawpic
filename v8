@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T06:38:26.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="SnHmm2B-qGhFJa_D2Ojz" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T06:39:02.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="cr_5EsHbprG3F--pQ4Kz" version="14.6.0" type="github">
   <diagram id="JWh0TKqKFBKpZKqdShiZ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,6 +214,9 @@
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-115" value="创建上下文对象&lt;br&gt;此时为&lt;br&gt;&amp;nbsp;VO状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-43">
           <mxGeometry x="16.25" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="8b7u_k2Y_S55KY2sijHm-43" source="-M2EXJkgTvvf2OwQ2ZDC-119" target="8b7u_k2Y_S55KY2sijHm-61">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-M2EXJkgTvvf2OwQ2ZDC-119" value="最终生成&amp;nbsp;&lt;br&gt;eco" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8b7u_k2Y_S55KY2sijHm-43">
           <mxGeometry x="16.25" y="360" width="120" height="60" as="geometry" />
