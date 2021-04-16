@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T01:49:04.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="_K94JApSUy_yVMUJ4Vua" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T04:29:57.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="CScBjQuMQHdA7dmxKTOn" version="14.6.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,33 +31,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-42" value="开始游戏" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-1" vertex="1">
-          <mxGeometry x="50" y="1680" width="120" height="60" as="geometry" />
+          <mxGeometry x="48" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-43" value="日常游戏&lt;br&gt;操作指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="fGajkBScvO4oU9Z-KqmK-1" vertex="1">
-          <mxGeometry x="70" y="1780" width="80" height="80" as="geometry" />
+          <mxGeometry x="68" y="1890" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-50" value="触发游戏结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-1" vertex="1">
-          <mxGeometry x="40" y="2360" width="120" height="60" as="geometry" />
+          <mxGeometry x="38" y="2470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-59" value="loading&lt;br&gt;...&lt;br&gt;..." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="fGajkBScvO4oU9Z-KqmK-1" vertex="1">
           <mxGeometry x="60" y="345" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="fGajkBScvO4oU9Z-KqmK-1" source="fGajkBScvO4oU9Z-KqmK-70" target="fGajkBScvO4oU9Z-KqmK-43" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="106" y="1930" as="targetPoint" />
+            <mxPoint x="104" y="2040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-70" value="展示UI操作结果" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-1" vertex="1">
-          <mxGeometry x="48" y="2240" width="120" height="60" as="geometry" />
+          <mxGeometry x="46" y="2350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-79" value="一局&lt;br&gt;游戏结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-1" vertex="1">
-          <mxGeometry x="40" y="2470" width="120" height="60" as="geometry" />
+          <mxGeometry x="38" y="2580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-33" value="取消准备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-1">
           <mxGeometry x="60" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-43" value="loading&lt;br&gt;...&lt;br&gt;..." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-1">
-          <mxGeometry x="80" y="1540" width="80" height="80" as="geometry" />
+          <mxGeometry x="68" y="1650" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-2" value="cocos/前端" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="320" y="40" width="200" height="2730" as="geometry" />
@@ -86,29 +86,29 @@
         <mxCell id="fGajkBScvO4oU9Z-KqmK-24" value="渲染游戏基础UI&lt;br&gt;房间信息&lt;br&gt;准备按钮&lt;br&gt;...." style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
           <mxGeometry x="44" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fGajkBScvO4oU9Z-KqmK-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="fGajkBScvO4oU9Z-KqmK-2" source="fGajkBScvO4oU9Z-KqmK-38" target="fGajkBScvO4oU9Z-KqmK-40" edge="1">
+        <mxCell id="-j769H0zRMGYNG9kzOUK-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="fGajkBScvO4oU9Z-KqmK-38" target="-j769H0zRMGYNG9kzOUK-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-38" value="等待后端&lt;br&gt;返回匹配&lt;br&gt;结果" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
-          <mxGeometry x="70" y="1540" width="80" height="80" as="geometry" />
+          <mxGeometry x="68" y="1550" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-40" value="渲染游戏UI&lt;br&gt;地图&lt;br&gt;玩家信息&lt;br&gt;玩家位置&lt;br&gt;...." style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
-          <mxGeometry x="50" y="1670" width="120" height="80" as="geometry" />
+          <mxGeometry x="48" y="1780" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="fGajkBScvO4oU9Z-KqmK-47" target="-j769H0zRMGYNG9kzOUK-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-47" value="等待后端&lt;br&gt;逻辑帧" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
-          <mxGeometry x="72" y="2010" width="80" height="80" as="geometry" />
+          <mxGeometry x="70" y="2120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-49" value="根据后端逻辑帧&lt;br&gt;开始渲染&lt;br&gt;玩家操作UI" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
-          <mxGeometry x="52" y="2240" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="2350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-55" value="UI渲染&lt;br&gt;清理游戏&lt;br&gt;结束过程" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
-          <mxGeometry x="54" y="2470" width="120" height="60" as="geometry" />
+          <mxGeometry x="52" y="2580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-74" value="推送&lt;br&gt;游戏结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
-          <mxGeometry x="54" y="2360" width="120" height="60" as="geometry" />
+          <mxGeometry x="52" y="2470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="-j769H0zRMGYNG9kzOUK-1" target="fGajkBScvO4oU9Z-KqmK-22">
           <mxGeometry relative="1" as="geometry" />
@@ -158,19 +158,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-51" value="确认已收到该&lt;br&gt;逻辑帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
-          <mxGeometry x="52" y="2130" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="2240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="-j769H0zRMGYNG9kzOUK-57" target="-j769H0zRMGYNG9kzOUK-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-57" value="等待玩家&lt;br&gt;操作指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
-          <mxGeometry x="70" y="1780" width="80" height="80" as="geometry" />
+          <mxGeometry x="68" y="1890" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-60" value="有玩家&lt;br&gt;掉线" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
-          <mxGeometry x="70" y="1890" width="80" height="80" as="geometry" />
+          <mxGeometry x="68" y="2000" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-68" value="接收玩家&lt;br&gt;指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
           <mxGeometry x="64" y="1290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-j769H0zRMGYNG9kzOUK-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="-j769H0zRMGYNG9kzOUK-71" target="fGajkBScvO4oU9Z-KqmK-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-j769H0zRMGYNG9kzOUK-71" value="保存&lt;br&gt;roomId&lt;br&gt;其它玩家信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
+          <mxGeometry x="48" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-3" value="后端" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="580" y="40" width="200" height="2730" as="geometry" />
@@ -218,25 +224,25 @@
           <mxGeometry x="80" y="1430" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-39" value="匹配成功" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-3" vertex="1">
-          <mxGeometry x="60" y="1550" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="fGajkBScvO4oU9Z-KqmK-3" source="fGajkBScvO4oU9Z-KqmK-45" target="fGajkBScvO4oU9Z-KqmK-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-45" value="接收玩家操作&lt;br&gt;指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="fGajkBScvO4oU9Z-KqmK-3" vertex="1">
-          <mxGeometry x="82" y="1890" width="80" height="80" as="geometry" />
+          <mxGeometry x="80" y="2000" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-46" value="生成&lt;br&gt;玩家操作&lt;br&gt;逻辑帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-3" vertex="1">
-          <mxGeometry x="62" y="2020" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="2130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="fGajkBScvO4oU9Z-KqmK-3" source="fGajkBScvO4oU9Z-KqmK-53" target="fGajkBScvO4oU9Z-KqmK-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-53" value="接收游戏&lt;br&gt;结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="fGajkBScvO4oU9Z-KqmK-3" vertex="1">
-          <mxGeometry x="74" y="2350" width="80" height="80" as="geometry" />
+          <mxGeometry x="72" y="2460" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-54" value="确认游戏结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-3" vertex="1">
-          <mxGeometry x="54" y="2470" width="120" height="60" as="geometry" />
+          <mxGeometry x="52" y="2580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-2" value="创建socket&lt;br&gt;长连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-3">
           <mxGeometry x="40" y="435" width="120" height="60" as="geometry" />
@@ -266,7 +272,7 @@
           <mxGeometry x="64" y="730" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-52" value="每帧&lt;br&gt;确认" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-3">
-          <mxGeometry x="78" y="2120" width="80" height="80" as="geometry" />
+          <mxGeometry x="76" y="2230" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-7" value="http" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fGajkBScvO4oU9Z-KqmK-5" target="fGajkBScvO4oU9Z-KqmK-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -317,7 +323,7 @@
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-j769H0zRMGYNG9kzOUK-60" target="fGajkBScvO4oU9Z-KqmK-45" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="468" y="1970" as="sourcePoint" />
+            <mxPoint x="466" y="2080" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-82" value="socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fGajkBScvO4oU9Z-KqmK-66" vertex="1" connectable="0">
