@@ -1,20 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T02:33:21.843Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="jICufVcqUwk8WhBYunQv" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T02:35:12.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="0seunCt6hNFvTyOUSgds" version="14.6.0" type="github">
   <diagram id="-5-jdhdnzxWbleS5DXfY" name="Page-1">
     <mxGraphModel dx="1392" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7hrJLlgsWt-9u6O5V6BG-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="40" width="480" height="380" as="geometry" />
+          <mxGeometry x="50" y="40" width="750" height="380" as="geometry" />
         </mxCell>
         <mxCell id="7hrJLlgsWt-9u6O5V6BG-2" value="玩家1" style="swimlane;html=1;startSize=30;horizontal=0;" vertex="1" parent="7hrJLlgsWt-9u6O5V6BG-1">
-          <mxGeometry y="20" width="480" height="120" as="geometry" />
+          <mxGeometry y="20" width="750" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7hrJLlgsWt-9u6O5V6BG-5" value="产生&lt;br&gt;操作指令A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7hrJLlgsWt-9u6O5V6BG-2">
+          <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7hrJLlgsWt-9u6O5V6BG-3" value="服务器" style="swimlane;html=1;startSize=30;horizontal=0;" vertex="1" parent="7hrJLlgsWt-9u6O5V6BG-1">
-          <mxGeometry y="140" width="480" height="120" as="geometry" />
+          <mxGeometry y="140" width="750" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7hrJLlgsWt-9u6O5V6BG-7" value="收到指令A&lt;br&gt;收到指令B&lt;br&gt;打包生成&lt;br&gt;逻辑帧AB" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="7hrJLlgsWt-9u6O5V6BG-3">
+          <mxGeometry x="230" y="20" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7hrJLlgsWt-9u6O5V6BG-4" value="玩家2" style="swimlane;html=1;startSize=30;horizontal=0;" vertex="1" parent="7hrJLlgsWt-9u6O5V6BG-1">
-          <mxGeometry y="260" width="480" height="120" as="geometry" />
+          <mxGeometry y="260" width="750" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7hrJLlgsWt-9u6O5V6BG-6" value="产生&lt;br&gt;操作指令B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7hrJLlgsWt-9u6O5V6BG-4">
+          <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7hrJLlgsWt-9u6O5V6BG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7hrJLlgsWt-9u6O5V6BG-1" source="7hrJLlgsWt-9u6O5V6BG-5" target="7hrJLlgsWt-9u6O5V6BG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7hrJLlgsWt-9u6O5V6BG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7hrJLlgsWt-9u6O5V6BG-1" source="7hrJLlgsWt-9u6O5V6BG-6" target="7hrJLlgsWt-9u6O5V6BG-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
