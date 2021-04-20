@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T10:48:45.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="-vm9U457hpAX0QtQKLT6" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T10:49:22.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="2GT_l6OlMX5wdkz9ZnS-" version="14.6.3" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -367,16 +367,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0nTp-W9u-j78-633uWwz-19" value="更新RTT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
-          <mxGeometry x="280" y="176.75" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="176.75" width="80" height="43.25" as="geometry" />
         </mxCell>
         <mxCell id="0nTp-W9u-j78-633uWwz-22" value="RTT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
           <mxGeometry x="570" y="181.34" width="70" height="43.31" as="geometry" />
         </mxCell>
-        <mxCell id="0nTp-W9u-j78-633uWwz-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-115" source="0nTp-W9u-j78-633uWwz-27" target="0nTp-W9u-j78-633uWwz-94">
+        <mxCell id="0nTp-W9u-j78-633uWwz-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-115" source="0nTp-W9u-j78-633uWwz-27" target="0nTp-W9u-j78-633uWwz-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0nTp-W9u-j78-633uWwz-27" value="&lt;span&gt;做一RTT&lt;br&gt;&lt;/span&gt;&lt;span&gt;测试&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
-          <mxGeometry x="718" y="181.34" width="88" height="49" as="geometry" />
+          <mxGeometry x="718" y="161" width="88" height="49" as="geometry" />
         </mxCell>
         <mxCell id="0nTp-W9u-j78-633uWwz-30" value="逻辑帧拆包" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
           <mxGeometry x="886.11" y="510" width="140" height="78" as="geometry" />
@@ -438,7 +438,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0nTp-W9u-j78-633uWwz-94" value="RTT&lt;br&gt;大于&lt;br&gt;460" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
-          <mxGeometry x="722" y="280.01" width="80" height="80" as="geometry" />
+          <mxGeometry x="726" y="336" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0nTp-W9u-j78-633uWwz-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-115" source="0nTp-W9u-j78-633uWwz-97" target="0nTp-W9u-j78-633uWwz-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nTp-W9u-j78-633uWwz-97" value="更新RTT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
+          <mxGeometry x="726" y="248.32000000000005" width="80" height="43.25" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-92" value="S端" style="swimlane;" parent="4TKYKufiDU9-YVt1ajdF-114" vertex="1">
           <mxGeometry x="1220" y="37.08749216300941" width="450" height="893.7931034482759" as="geometry" />
