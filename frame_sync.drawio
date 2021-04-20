@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T10:07:16.027Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="LPzXoTJSWXUfwFvBYrJ4" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T10:47:24.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="BU_LFEt93RWilpeX4gS9" version="14.6.3" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -260,7 +260,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-116" value="推送服务端" style="rounded=1;whiteSpace=wrap;html=1;" parent="4TKYKufiDU9-YVt1ajdF-115" vertex="1">
-          <mxGeometry x="86.11" y="585.8341379310345" width="120" height="54.16927899686521" as="geometry" />
+          <mxGeometry x="86.11" y="725.8241379310346" width="120" height="54.16927899686521" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-118" value="GPU渲染&lt;br&gt;播放指令" style="rounded=1;whiteSpace=wrap;html=1;" parent="4TKYKufiDU9-YVt1ajdF-115" vertex="1">
           <mxGeometry x="896.11" y="779.9969905956112" width="120" height="54.16927899686521" as="geometry" />
@@ -404,8 +404,11 @@
         <mxCell id="0nTp-W9u-j78-633uWwz-79" value="删除缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
           <mxGeometry x="560" y="655" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0nTp-W9u-j78-633uWwz-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-115" source="0nTp-W9u-j78-633uWwz-83" target="4TKYKufiDU9-YVt1ajdF-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0nTp-W9u-j78-633uWwz-83" value="打包指令集" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
-          <mxGeometry x="101.11" y="412.06" width="90" height="104" as="geometry" />
+          <mxGeometry x="101.11" y="552.05" width="90" height="104" as="geometry" />
         </mxCell>
         <mxCell id="0nTp-W9u-j78-633uWwz-84" value="生成ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0nTp-W9u-j78-633uWwz-83">
           <mxGeometry y="26" width="90" height="26" as="geometry" />
@@ -415,6 +418,20 @@
         </mxCell>
         <mxCell id="0nTp-W9u-j78-633uWwz-86" value="逻辑帧顺序号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0nTp-W9u-j78-633uWwz-83">
           <mxGeometry y="78" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0nTp-W9u-j78-633uWwz-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-115" source="0nTp-W9u-j78-633uWwz-89" target="4TKYKufiDU9-YVt1ajdF-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="86" y="456" />
+              <mxPoint x="86" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nTp-W9u-j78-633uWwz-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-115" source="0nTp-W9u-j78-633uWwz-89" target="0nTp-W9u-j78-633uWwz-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nTp-W9u-j78-633uWwz-89" value="RTT&lt;br&gt;大于&lt;br&gt;460" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="4TKYKufiDU9-YVt1ajdF-115">
+          <mxGeometry x="106.11" y="416" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-92" value="S端" style="swimlane;" parent="4TKYKufiDU9-YVt1ajdF-114" vertex="1">
           <mxGeometry x="1220" y="37.08749216300941" width="450" height="893.7931034482759" as="geometry" />
