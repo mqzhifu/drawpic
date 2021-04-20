@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T10:52:14.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="KyM6qDassqZkD5BQtpLX" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T10:52:18.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="3cPivzg0ewujX8ZhY7ub" version="14.6.3" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,6 +273,9 @@
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-119" value="每1/10秒&lt;br&gt;拉取一次&lt;br&gt;指令集" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="4TKYKufiDU9-YVt1ajdF-115" vertex="1">
           <mxGeometry x="109.89" y="495.0466771159875" width="72.22570532915361" height="72.22570532915361" as="geometry" />
+        </mxCell>
+        <mxCell id="0nTp-W9u-j78-633uWwz-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4TKYKufiDU9-YVt1ajdF-115" source="4TKYKufiDU9-YVt1ajdF-128" target="0nTp-W9u-j78-633uWwz-107">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-128" value="接收本地&lt;br&gt;玩家指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="4TKYKufiDU9-YVt1ajdF-115" vertex="1">
           <mxGeometry x="110" y="46.94670846394985" width="72.22570532915361" height="72.22570532915361" as="geometry" />
