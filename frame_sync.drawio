@@ -1,39 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T10:52:18.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="3cPivzg0ewujX8ZhY7ub" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T10:53:52.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="rot9oKUkLSP1Z1amF4xb" version="14.6.3" type="github">
   <diagram id="cTCjcHN-rwVxs7hEuexl" name="Page-1">
-    <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="599" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-7" value="发送消息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="630" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-8" value="选定协议号" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="740" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-9" value="protobuff&lt;br&gt;压缩" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="850" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-10" value="接收消息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="630" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-11" value="匹配协议号" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="730" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-12" value="protobuff&lt;br&gt;&amp;nbsp;解缩" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="840" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-13" value="分发到&lt;br&gt;控制器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="960" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-14" value="产生一个广播&lt;br&gt;动作" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-15" value="选定接收列表&lt;br&gt;uidList" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1460" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-16" value="&amp;nbsp;创建消息唯一ID&lt;br&gt;+帖号" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1360" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-17" value="断线重连" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="790" width="120" height="60" as="geometry" />
         </mxCell>
@@ -43,29 +13,8 @@
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-19" value="预测" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="970" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-23" value="均进入准备状态&lt;br&gt;发送初始化参数&lt;br&gt;进入loading" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="520" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-24" value="开始初始化场景" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1070" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-25" value="设置所有玩家&lt;br&gt;初始帧号" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1169" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-26" value="等待所有&lt;br&gt;玩家确认" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="520" y="1674" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-27" value="开始真正&lt;br&gt;抢着消息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1560" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-30" value="延迟补偿" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="1070" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-40" value="&amp;nbsp;如果A挂了&lt;br&gt;通知服务器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="1800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lB1xqUMFaD_04WnO8Ldx-41" value="服务器端&lt;br&gt;缓存一局游戏&lt;br&gt;全部指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="770" y="1670" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lB1xqUMFaD_04WnO8Ldx-42" value="关键帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="1190" width="120" height="60" as="geometry" />
@@ -250,7 +199,7 @@
         <mxCell id="4TKYKufiDU9-YVt1ajdF-91" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2950" y="480" width="1700" height="1152" as="geometry" />
         </mxCell>
-        <mxCell id="4TKYKufiDU9-YVt1ajdF-114" value="prediction-snapshot-rollback" style="swimlane;" parent="4TKYKufiDU9-YVt1ajdF-91" vertex="1">
+        <mxCell id="4TKYKufiDU9-YVt1ajdF-114" value="Optimistic Lock | frame-sync" style="swimlane;" parent="4TKYKufiDU9-YVt1ajdF-91" vertex="1">
           <mxGeometry x="-10" y="-12" width="1710" height="1152" as="geometry" />
         </mxCell>
         <mxCell id="4TKYKufiDU9-YVt1ajdF-115" value="C端" style="swimlane;" parent="4TKYKufiDU9-YVt1ajdF-114" vertex="1">
