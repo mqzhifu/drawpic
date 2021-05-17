@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T08:59:21.375Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="YZH8JVeZedVtOB16QFCb" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T09:00:36.332Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Ybz0OQmVmczsucJVsASC" version="14.6.12" type="github">
   <diagram id="iyjNrZEIIlaJpKlFBpwa" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,11 +19,17 @@
             <mxPoint x="250" y="99.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-10" value="推送&lt;br&gt;玩家操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-2">
+          <mxGeometry x="60" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-3" value="server" style="swimlane;html=1;startSize=20;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-1">
           <mxGeometry x="240" y="20" width="300" height="610" as="geometry" />
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-7" value="前置条件&lt;br&gt;初始化&lt;br&gt;完成" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
           <mxGeometry x="114" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-12" value="处理&lt;br&gt;逻辑帧" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
+          <mxGeometry x="120" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-4" value="player-2" style="swimlane;html=1;startSize=20;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-1">
           <mxGeometry x="540" y="20" width="280" height="610" as="geometry" />
@@ -35,6 +41,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-106" y="99.5" as="sourcePoint" />
             <mxPoint x="68" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-11" value="推送&lt;br&gt;玩家操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-4">
+          <mxGeometry x="70" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-15" value="" style="endArrow=classic;html=1;entryX=1.025;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Y-lhdCYYxK5GopnYnzkg-4" target="Y-lhdCYYxK5GopnYnzkg-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="210" as="sourcePoint" />
+            <mxPoint y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-13" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Y-lhdCYYxK5GopnYnzkg-1" source="Y-lhdCYYxK5GopnYnzkg-10" target="Y-lhdCYYxK5GopnYnzkg-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="250" as="sourcePoint" />
+            <mxPoint x="310" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
