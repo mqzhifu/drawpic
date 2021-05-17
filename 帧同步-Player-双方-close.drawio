@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T09:07:21.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jO8upgO7UZoQ_Ic3KwyJ" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T09:08:19.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jxj77H8vG43YfWg2A8Nv" version="14.6.12" type="github">
   <diagram id="iyjNrZEIIlaJpKlFBpwa" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,6 +113,50 @@
             <mxPoint x="260" y="250" as="sourcePoint" />
             <mxPoint x="310" y="200" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-34" value="推送&lt;br&gt;玩家操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-35" value="&lt;span&gt;last update&lt;/span&gt;&lt;br&gt;&lt;span&gt;timer&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="785" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-36" value="处理&lt;br&gt;逻辑帧" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="595" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-37" value="正常推送" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Y-lhdCYYxK5GopnYnzkg-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="535" as="sourcePoint" />
+            <mxPoint x="1330" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-38" value="&lt;span&gt;last update&lt;/span&gt;&lt;br&gt;&lt;span&gt;timer&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="785" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-39" value="推送&lt;br&gt;玩家操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-40" value="" style="endArrow=classic;html=1;entryX=1.025;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1650" y="555" as="sourcePoint" />
+            <mxPoint x="1482" y="632.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-41" value="正常推送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y-lhdCYYxK5GopnYnzkg-40">
+          <mxGeometry x="-0.1044" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-42" value="&lt;span&gt;接收&lt;/span&gt;&lt;br&gt;&lt;span&gt;逻辑帧&lt;br&gt;死循环&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-43" value="&lt;span&gt;last update&lt;/span&gt;&lt;br&gt;&lt;span&gt;timer&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="785" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-44" value="S端网络出现问题&lt;br&gt;送不到两端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-45" value="&lt;span&gt;接收&lt;/span&gt;&lt;br&gt;&lt;span&gt;逻辑帧&lt;br&gt;死循环&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
