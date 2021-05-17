@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T09:10:29.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bZidtV2LShnWQxQc3-lP" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T09:10:57.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ho_jEZzbocOD_lK-Z4qu" version="14.6.12" type="github">
   <diagram id="iyjNrZEIIlaJpKlFBpwa" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -161,9 +161,6 @@
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-46" value="推送&lt;br&gt;玩家操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1870" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y-lhdCYYxK5GopnYnzkg-47" value="&lt;span&gt;last update&lt;/span&gt;&lt;br&gt;&lt;span&gt;timer&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="960" width="100" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-48" value="处理&lt;br&gt;逻辑帧" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2160" y="595" width="80" height="80" as="geometry" />
         </mxCell>
@@ -172,9 +169,6 @@
             <mxPoint x="1990" y="535" as="sourcePoint" />
             <mxPoint x="2110" y="600" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Y-lhdCYYxK5GopnYnzkg-50" value="&lt;span&gt;last update&lt;/span&gt;&lt;br&gt;&lt;span&gt;timer&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="2160" y="960" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-51" value="推送&lt;br&gt;玩家操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2430" y="500" width="120" height="60" as="geometry" />
@@ -193,7 +187,7 @@
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-54" value="&lt;span&gt;接收&lt;/span&gt;&lt;br&gt;&lt;span&gt;逻辑帧&lt;br&gt;死循环&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2430" y="675" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y-lhdCYYxK5GopnYnzkg-55" value="&lt;span&gt;last update&lt;/span&gt;&lt;br&gt;&lt;span&gt;timer&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-55" value="&lt;span&gt;创建一个&lt;br&gt;timer&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="2440" y="880" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y-lhdCYYxK5GopnYnzkg-56" target="Y-lhdCYYxK5GopnYnzkg-58">
