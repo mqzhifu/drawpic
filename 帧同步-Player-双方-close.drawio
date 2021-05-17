@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T09:09:57.281Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Ybd5EBPryLoqm1L5A619" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T09:10:29.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bZidtV2LShnWQxQc3-lP" version="14.6.12" type="github">
   <diagram id="iyjNrZEIIlaJpKlFBpwa" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -194,7 +194,7 @@
           <mxGeometry x="2430" y="675" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-55" value="&lt;span&gt;last update&lt;/span&gt;&lt;br&gt;&lt;span&gt;timer&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="2440" y="960" width="100" height="60" as="geometry" />
+          <mxGeometry x="2440" y="880" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y-lhdCYYxK5GopnYnzkg-56" target="Y-lhdCYYxK5GopnYnzkg-58">
           <mxGeometry relative="1" as="geometry" />
@@ -207,6 +207,9 @@
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-58" value="A已掉线&lt;br&gt;请等待N秒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2430" y="785" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-61" value="N秒未收到掉线玩家&lt;br&gt;恢复消息，游戏结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
