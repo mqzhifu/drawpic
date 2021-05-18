@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T06:20:12.701Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bqWOBPEVCb3DjKFMWxyy" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T06:26:42.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="8HzgIyzGv9x0xC4LeJMP" version="14.6.13" type="github">
   <diagram id="iyjNrZEIIlaJpKlFBpwa" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,6 +103,9 @@
         <mxCell id="K6ixlQ37SQ0X0arZtg30-5" value="RTT&lt;br&gt;timer" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
           <mxGeometry x="96" y="800" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="K6ixlQ37SQ0X0arZtg30-40" value="创建新的TIMER" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y-lhdCYYxK5GopnYnzkg-3" source="K6ixlQ37SQ0X0arZtg30-6" target="K6ixlQ37SQ0X0arZtg30-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K6ixlQ37SQ0X0arZtg30-6" value="检测出超时" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
           <mxGeometry x="86" y="930" width="120" height="60" as="geometry" />
         </mxCell>
@@ -113,7 +116,10 @@
           <mxGeometry y="770" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K6ixlQ37SQ0X0arZtg30-38" value="&amp;nbsp;等待玩家恢复时间&lt;br&gt;1.S端要大于C端一些&lt;br&gt;2.正常在线用户等一个人还好&lt;br&gt;如果接连掉线以哪个时间为准?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
-          <mxGeometry x="46" y="1080" width="174" height="90" as="geometry" />
+          <mxGeometry x="16" y="1200" width="174" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="K6ixlQ37SQ0X0arZtg30-39" value="等待玩家恢复&lt;br&gt;timer" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
+          <mxGeometry x="96" y="1070" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-4" value="player-2" style="swimlane;html=1;startSize=20;" parent="Y-lhdCYYxK5GopnYnzkg-1" vertex="1">
           <mxGeometry x="620" y="20" width="360" height="1300" as="geometry" />
