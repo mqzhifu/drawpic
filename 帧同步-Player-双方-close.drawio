@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T06:13:44.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="dzg1Pn3SU0YXkz33VNvW" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T06:14:21.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="D-ZlWbAeys4vcs4-MW5o" version="14.6.13" type="github">
   <diagram id="iyjNrZEIIlaJpKlFBpwa" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,6 +69,21 @@
         </mxCell>
         <mxCell id="K6ixlQ37SQ0X0arZtg30-32" value="结束游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-2">
           <mxGeometry x="190" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6ixlQ37SQ0X0arZtg30-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y-lhdCYYxK5GopnYnzkg-2" source="K6ixlQ37SQ0X0arZtg30-34" target="K6ixlQ37SQ0X0arZtg30-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6ixlQ37SQ0X0arZtg30-37" value="清除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6ixlQ37SQ0X0arZtg30-36">
+          <mxGeometry x="-0.5412" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6ixlQ37SQ0X0arZtg30-34" value="玩家正常恢复" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-2">
+          <mxGeometry x="180" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-3" value="server" style="swimlane;html=1;startSize=20;" parent="Y-lhdCYYxK5GopnYnzkg-1" vertex="1">
           <mxGeometry x="320" y="20" width="300" height="1300" as="geometry" />
