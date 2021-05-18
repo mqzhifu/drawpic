@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T06:14:21.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="D-ZlWbAeys4vcs4-MW5o" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T06:14:39.931Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="rpuSNMnc2DTR_TtTVNiO" version="14.6.13" type="github">
   <diagram id="iyjNrZEIIlaJpKlFBpwa" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,12 +24,6 @@
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-16" value="接收&lt;br&gt;逻辑帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="Y-lhdCYYxK5GopnYnzkg-2" vertex="1">
           <mxGeometry x="40" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Y-lhdCYYxK5GopnYnzkg-17" value="" style="endArrow=classic;html=1;entryX=1.025;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" parent="Y-lhdCYYxK5GopnYnzkg-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="353.5" y="300" as="sourcePoint" />
-            <mxPoint x="185.5" y="377.03999999999996" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-21" value="推送&lt;br&gt;玩家操作" style="rounded=0;whiteSpace=wrap;html=1;" parent="Y-lhdCYYxK5GopnYnzkg-2" vertex="1">
           <mxGeometry x="40" y="465" width="120" height="60" as="geometry" />
@@ -214,6 +208,12 @@
         </mxCell>
         <mxCell id="K6ixlQ37SQ0X0arZtg30-13" value="通知其它玩家&lt;br&gt;有玩家掉线" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y-lhdCYYxK5GopnYnzkg-1" source="K6ixlQ37SQ0X0arZtg30-6" target="K6ixlQ37SQ0X0arZtg30-12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-lhdCYYxK5GopnYnzkg-17" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="Y-lhdCYYxK5GopnYnzkg-1" edge="1" target="Y-lhdCYYxK5GopnYnzkg-16" source="Y-lhdCYYxK5GopnYnzkg-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="353.5" y="320" as="sourcePoint" />
+            <mxPoint x="185.5" y="397.03999999999996" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
