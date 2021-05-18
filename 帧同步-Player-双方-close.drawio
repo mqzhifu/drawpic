@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T06:18:53.789Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="lJ00_PRNJXWEwXOCMwaA" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T06:20:12.701Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bqWOBPEVCb3DjKFMWxyy" version="14.6.13" type="github">
   <diagram id="iyjNrZEIIlaJpKlFBpwa" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,6 +111,9 @@
         </mxCell>
         <mxCell id="K6ixlQ37SQ0X0arZtg30-10" value="S端&lt;br&gt;RTT-timeout&lt;br&gt;一定要小于C端&lt;br&gt;RTT-timeout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
           <mxGeometry y="770" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6ixlQ37SQ0X0arZtg30-38" value="&amp;nbsp;等待玩家恢复时间&lt;br&gt;1.S端要大于C端一些&lt;br&gt;2.正常在线用户等一个人还好&lt;br&gt;如果接连掉线以哪个时间为准?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
+          <mxGeometry x="46" y="1080" width="174" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-4" value="player-2" style="swimlane;html=1;startSize=20;" parent="Y-lhdCYYxK5GopnYnzkg-1" vertex="1">
           <mxGeometry x="620" y="20" width="360" height="1300" as="geometry" />
