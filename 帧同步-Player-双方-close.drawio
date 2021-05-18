@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T06:03:36.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="OgJ2EqZ9r1dZ--Zyi815" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T06:04:44.771Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7OSjgBgVPhAHLk1rGSzu" version="14.6.13" type="github">
   <diagram id="iyjNrZEIIlaJpKlFBpwa" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,13 +65,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K6ixlQ37SQ0X0arZtg30-5" value="RTT&lt;br&gt;timer" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
-          <mxGeometry x="140" y="680" width="100" height="60" as="geometry" />
+          <mxGeometry x="140" y="740" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K6ixlQ37SQ0X0arZtg30-6" value="检测出超时" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
           <mxGeometry x="160" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K6ixlQ37SQ0X0arZtg30-7" value="S端&lt;br&gt;RTT-timeout&lt;br&gt;时间一定要小于C端RTT-timeout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
-          <mxGeometry x="20" y="680" width="100" height="70" as="geometry" />
+          <mxGeometry x="20" y="740" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K6ixlQ37SQ0X0arZtg30-9" value="始终等不到玩家&lt;br&gt;推送操作帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Y-lhdCYYxK5GopnYnzkg-3">
+          <mxGeometry x="90" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-lhdCYYxK5GopnYnzkg-4" value="player-2" style="swimlane;html=1;startSize=20;" parent="Y-lhdCYYxK5GopnYnzkg-1" vertex="1">
           <mxGeometry x="540" y="20" width="280" height="1140" as="geometry" />
