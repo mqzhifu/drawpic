@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T11:19:58.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="2JJm57MInH3wo67btrr6" type="github"><diagram id="GxR0PRDoPZGQSzMZuUYD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-21T11:23:21.241Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="f-ErRcYIYkfzmC0C5od4" version="14.6.13" type="github">
+  <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
+    <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yKjmlBfSIsORVOxLIdED-1" value="指令行&lt;br&gt;参数启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-3" value="main" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="30" y="150" width="340" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-4" value="处理参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-3">
+          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-5" value="日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-3">
+          <mxGeometry x="20" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-6" value="配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-3">
+          <mxGeometry x="20" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-7" value="&amp;nbsp;创建&lt;br&gt;context.root" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-3">
+          <mxGeometry x="20" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-8" value="实例化&lt;br&gt;netway&lt;br&gt;startUp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-3">
+          <mxGeometry x="180" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-9" value="处理信号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-3">
+          <mxGeometry x="180" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-10" value="阻塞" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-3">
+          <mxGeometry x="200" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
