@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T11:27:38.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="N6zm-hr4dWScRyLePlHG" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-21T11:47:33.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="RA-5TLDd_wSMBkwvK1q6" version="14.6.13" type="github">
   <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
           <mxGeometry x="200" y="260" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yKjmlBfSIsORVOxLIdED-11" value="netway" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="400" y="150" width="540" height="430" as="geometry" />
+          <mxGeometry x="400" y="150" width="540" height="770" as="geometry" />
         </mxCell>
         <mxCell id="yKjmlBfSIsORVOxLIdED-13" value="配置信息&lt;br&gt;日志类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-11">
           <mxGeometry x="30" y="50" width="120" height="60" as="geometry" />
@@ -44,7 +44,28 @@
           <mxGeometry x="30" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yKjmlBfSIsORVOxLIdED-16" value="实例化&lt;br&gt;wsConnManager&lt;br&gt;类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-11">
-          <mxGeometry x="20" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-17" value="实例化&lt;br&gt;players&lt;br&gt;类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-11">
+          <mxGeometry x="30" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-18" value="实例化&lt;br&gt;protocolAction&lt;br&gt;类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-11">
+          <mxGeometry x="30" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-19" value="实例化&lt;br&gt;metrics&lt;br&gt;类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-11">
+          <mxGeometry x="30" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-20" value=" startUp" style="swimlane;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-11">
+          <mxGeometry x="230" y="50" width="260" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-21" value="matching&lt;br&gt;PlayerCreateRoom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-20">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-22" value="check&lt;br&gt;ConnPoolTimeout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-20">
+          <mxGeometry x="20" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKjmlBfSIsORVOxLIdED-23" value="recvice&lt;br&gt;MatchSuccess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKjmlBfSIsORVOxLIdED-20">
+          <mxGeometry x="20" y="230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
