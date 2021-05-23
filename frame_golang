@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T12:26:37.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="3pDBMzpqjb9uPgAtMTO7" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-23T12:27:06.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="CqaBrkjjNhacKruUURgG" version="14.7.0" type="github">
   <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
     <mxGraphModel dx="2066" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,8 +97,8 @@
         <mxCell id="mzf2dGeEllB08t_609vg-8" value="SendMsg&lt;br&gt;LoginRes" style="rounded=0;whiteSpace=wrap;html=1;" parent="mzf2dGeEllB08t_609vg-1" vertex="1">
           <mxGeometry x="20" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mzf2dGeEllB08t_609vg-9" value="NewWsConn.IOLoop" style="rounded=0;whiteSpace=wrap;html=1;" parent="mzf2dGeEllB08t_609vg-1" vertex="1">
-          <mxGeometry x="20" y="730" width="120" height="60" as="geometry" />
+        <mxCell id="IgfES_i5wEUSj0PPmFLe-25" value="NewWsConn&lt;br&gt;IOLoop" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="mzf2dGeEllB08t_609vg-1">
+          <mxGeometry x="20" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-10" value="match" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="30" y="610" width="280" height="310" as="geometry" />
