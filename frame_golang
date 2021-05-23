@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T00:46:59.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6f4ZzVT8beG9PwH9TvqB" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-23T00:49:05.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="WNkg9zPsfg7BDaPJwwl6" version="14.7.0" type="github">
   <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
     <mxGraphModel dx="2066" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
           <mxGeometry x="20" y="90" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-11" value="sync" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="1140" width="200" height="200" as="geometry" />
+          <mxGeometry x="1540" y="1130" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-12" value="wsConnManager" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="40" y="990" width="350" height="410" as="geometry" />
@@ -161,25 +161,28 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-14" value="protocolAction" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="770" y="990" width="200" height="200" as="geometry" />
+          <mxGeometry x="870" y="1160" width="370" height="270" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-32" value="Pool" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="mzf2dGeEllB08t_609vg-14">
-          <mxGeometry x="50" y="40" width="140" height="130" as="geometry" />
+          <mxGeometry x="200" y="40" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="mzf2dGeEllB08t_609vg-33" value="plgyaer-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzf2dGeEllB08t_609vg-32">
+        <mxCell id="mzf2dGeEllB08t_609vg-33" value="protocol-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzf2dGeEllB08t_609vg-32">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mzf2dGeEllB08t_609vg-34" value="plgyaer-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzf2dGeEllB08t_609vg-32">
+        <mxCell id="mzf2dGeEllB08t_609vg-34" value="protocol-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzf2dGeEllB08t_609vg-32">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mzf2dGeEllB08t_609vg-35" value="plgyaer-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzf2dGeEllB08t_609vg-32">
+        <mxCell id="mzf2dGeEllB08t_609vg-35" value="protocol-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzf2dGeEllB08t_609vg-32">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-36" value="......" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mzf2dGeEllB08t_609vg-32">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="mzf2dGeEllB08t_609vg-37" value="加载配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mzf2dGeEllB08t_609vg-14">
+          <mxGeometry x="30" y="49" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-15" value="metrics" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="750" y="1410" width="200" height="200" as="geometry" />
+          <mxGeometry x="1560" y="1450" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
