@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T08:19:08.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6S93KzdFe39aiRFRjTo9" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T08:24:37.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ZniD63CijoZr38a5g3l5" version="14.7.0" type="github">
   <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -368,7 +368,7 @@
           <mxGeometry x="20" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-14" value="protocolAction" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="1930" y="780" width="370" height="270" as="geometry" />
+          <mxGeometry x="1850" y="435" width="370" height="270" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-32" value="Pool" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="mzf2dGeEllB08t_609vg-14" vertex="1">
           <mxGeometry x="200" y="40" width="140" height="130" as="geometry" />
