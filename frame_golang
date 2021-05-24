@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T06:16:22.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="WTJQNEaopQBdkPgyRdzQ" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T06:24:06.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="tIMNRcpOvXKTp5PytBxG" version="14.7.0" type="github">
   <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -218,7 +218,7 @@
           <mxGeometry x="30" y="130" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-12" value="wsConnManager" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="130" y="1420" width="350" height="410" as="geometry" />
+          <mxGeometry x="130" y="1420" width="350" height="760" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-22" value="wsConnPool" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="mzf2dGeEllB08t_609vg-12" vertex="1">
           <mxGeometry x="170" y="49" width="140" height="130" as="geometry" />
@@ -240,6 +240,21 @@
         </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-4" value="del" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mzf2dGeEllB08t_609vg-12">
           <mxGeometry x="20" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-65" value="IOLoop" style="swimlane;" vertex="1" parent="mzf2dGeEllB08t_609vg-12">
+          <mxGeometry x="40" y="334" width="200" height="406" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-66" value="wsConn.Status&amp;nbsp; =EXECING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-65">
+          <mxGeometry x="20" y="46" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-67" value="ReadLoop" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-65">
+          <mxGeometry x="20" y="126" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-68" value="ProcessMsgLoop" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-65">
+          <mxGeometry x="20" y="216" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-69" value="wsConn&lt;br&gt;CloseChan" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-65">
+          <mxGeometry x="44" y="306" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-13" value="playerManager" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="1530" y="530" width="300" height="410" as="geometry" />
