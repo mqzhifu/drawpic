@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T05:40:39.245Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="DObAElwstRwRs1_0H5QQ" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T05:41:07.108Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="3DTm33R8dFQ1qX2Knmhs" version="14.7.0" type="github">
   <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -248,19 +248,19 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-5" value="recviceMatchSuccess" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1024" width="290" height="286" as="geometry" />
-        </mxCell>
-        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-6" value="match&lt;br&gt;SuccessChan" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-5">
-          <mxGeometry x="180" y="56" width="100" height="60" as="geometry" />
+          <mxGeometry x="440" y="1024" width="290" height="356" as="geometry" />
         </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-7" value="等待匹配&lt;br&gt;成功房间&lt;br&gt;数据" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-5">
-          <mxGeometry x="20" y="46" width="80" height="80" as="geometry" />
+          <mxGeometry x="200" y="36" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-8" value="sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-5">
           <mxGeometry x="20" y="145" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-10" value="sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-5">
           <mxGeometry x="20" y="216" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-6" value="match&lt;br&gt;SuccessChan" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-5">
+          <mxGeometry x="20" y="56" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hs6XcnTOqv2jZYr9-6-t-8" target="IgfES_i5wEUSj0PPmFLe-31">
           <mxGeometry relative="1" as="geometry" />
