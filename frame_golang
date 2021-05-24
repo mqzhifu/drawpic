@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T08:15:47.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="5ajql-z5TjpX8ccbmQ7W" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T08:16:18.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="2B2cgTUL5pVuekTSYkDt" version="14.7.0" type="github">
   <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -472,14 +472,14 @@
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-121" value="startHttpServer" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="1370" y="130" width="171" height="305" as="geometry" />
         </mxCell>
-        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-122" value="wsHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-121">
-          <mxGeometry x="19" y="44" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-123" value="wwwHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-121">
-          <mxGeometry x="19" y="125" width="120" height="60" as="geometry" />
+          <mxGeometry x="19" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-125" value="等待HTTP&lt;br&gt;请求" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-121">
           <mxGeometry x="39" y="205" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-122" value="wsHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-121">
+          <mxGeometry x="19" y="122.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-133" value="netway-quit" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="1560" y="130" width="220" height="300" as="geometry" />
@@ -510,6 +510,14 @@
         </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mzf2dGeEllB08t_609vg-2" target="Hs6XcnTOqv2jZYr9-6-t-150">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hs6XcnTOqv2jZYr9-6-t-123" target="mzf2dGeEllB08t_609vg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1449" y="730" />
+              <mxPoint x="1020" y="730" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
