@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T05:32:56.473Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0IH8o6AUEgPKvgpEJfnI" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T05:35:18.118Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="5SOl1y1bSr8lXtyMD9Cy" version="14.7.0" type="github">
   <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,6 +157,12 @@
         <mxCell id="mzf2dGeEllB08t_609vg-26" value="......" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="mzf2dGeEllB08t_609vg-22" vertex="1">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-3" value="循环查找&lt;br&gt;超时" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="mzf2dGeEllB08t_609vg-12">
+          <mxGeometry x="30" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-4" value="del" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mzf2dGeEllB08t_609vg-12">
+          <mxGeometry x="20" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-13" value="playerManager" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="430" y="1330" width="300" height="410" as="geometry" />
         </mxCell>
@@ -213,6 +219,15 @@
         </mxCell>
         <mxCell id="IgfES_i5wEUSj0PPmFLe-9" value="LOG_PATH" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="IgfES_i5wEUSj0PPmFLe-1" vertex="1">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-5" value="recviceMatchSuccess" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1024" width="290" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-6" value="match&lt;br&gt;SuccessChan" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-5">
+          <mxGeometry x="170" y="46" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs6XcnTOqv2jZYr9-6-t-7" value="等待匹配&lt;br&gt;成功房间&lt;br&gt;数据" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-5">
+          <mxGeometry x="20" y="46" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
