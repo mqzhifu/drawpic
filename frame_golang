@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T05:39:26.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="v9rmMSkM44fAoGd63mrI" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T05:39:40.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="AMVFTEn-OaYYQViktMuD" version="14.7.0" type="github">
   <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,9 +139,6 @@
         <mxCell id="IgfES_i5wEUSj0PPmFLe-31" value="Add&lt;br&gt;PoolElement" style="rounded=0;whiteSpace=wrap;html=1;" parent="mzf2dGeEllB08t_609vg-11" vertex="1">
           <mxGeometry x="20" y="39" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IgfES_i5wEUSj0PPmFLe-37" value="checkReady&lt;br&gt;Timeout" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="mzf2dGeEllB08t_609vg-11" vertex="1">
-          <mxGeometry x="20" y="430" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-13" value="roomPool" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="mzf2dGeEllB08t_609vg-11">
           <mxGeometry x="320" y="39" width="140" height="130" as="geometry" />
         </mxCell>
@@ -167,7 +164,7 @@
           <mxGeometry x="10" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hs6XcnTOqv2jZYr9-6-t-22" value="boardCast&lt;br&gt;enterBattle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Hs6XcnTOqv2jZYr9-6-t-19">
-          <mxGeometry x="20" y="199" width="120" height="60" as="geometry" />
+          <mxGeometry x="11" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-12" value="wsConnManager" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="40" y="1330" width="350" height="410" as="geometry" />
