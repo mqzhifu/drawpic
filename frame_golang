@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T05:39:40.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="AMVFTEn-OaYYQViktMuD" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T05:40:26.320Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="RtRSuiyJ6JczSAHJyuFa" version="14.7.0" type="github">
   <diagram id="GxR0PRDoPZGQSzMZuUYD" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,7 +191,7 @@
           <mxGeometry x="20" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-13" value="playerManager" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="430" y="1330" width="300" height="410" as="geometry" />
+          <mxGeometry x="1440" y="440" width="300" height="410" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-27" value="playerSignPool" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="mzf2dGeEllB08t_609vg-13" vertex="1">
           <mxGeometry x="110" y="49" width="140" height="130" as="geometry" />
@@ -209,7 +209,7 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-14" value="protocolAction" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="760" y="1390" width="370" height="270" as="geometry" />
+          <mxGeometry x="1440" y="150" width="370" height="270" as="geometry" />
         </mxCell>
         <mxCell id="mzf2dGeEllB08t_609vg-32" value="Pool" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="mzf2dGeEllB08t_609vg-14" vertex="1">
           <mxGeometry x="200" y="40" width="140" height="130" as="geometry" />
