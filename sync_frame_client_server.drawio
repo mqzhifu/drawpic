@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T03:09:36.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="u7j10iPnuqSXx0VjWtkE" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T03:10:23.934Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="lMX2MQskNuDFLG-fwrWp" version="14.7.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,6 +77,9 @@
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-18" value="存本地" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
           <mxGeometry x="152" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="fGajkBScvO4oU9Z-KqmK-22" target="Sno_3FDuC9euJfznuB0p-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-22" value="login" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
           <mxGeometry x="152" y="545" width="120" height="60" as="geometry" />
@@ -185,7 +188,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1LP57BGd8HRHrdq-bNOX-4" value="playerInfo&lt;br&gt;存本地" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
-          <mxGeometry x="156" y="975" width="120" height="60" as="geometry" />
+          <mxGeometry x="152" y="975" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="W625Gkra-pkz5VeMZ-dp-1" target="Sno_3FDuC9euJfznuB0p-7">
           <mxGeometry relative="1" as="geometry" />
@@ -219,6 +222,11 @@
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="Sno_3FDuC9euJfznuB0p-2" target="1LP57BGd8HRHrdq-bNOX-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-80" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sno_3FDuC9euJfznuB0p-3">
+          <mxGeometry x="-0.1673" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-2" value="判断登陆&lt;br&gt;结果" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
           <mxGeometry x="172" y="650" width="80" height="80" as="geometry" />
@@ -255,6 +263,9 @@
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-59" value="&lt;span&gt;PING&lt;/span&gt;&lt;br&gt;&lt;span&gt;试一下&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
           <mxGeometry x="30" y="3155" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-79" value="这里打算如何处理？" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
+          <mxGeometry x="20" y="640" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fGajkBScvO4oU9Z-KqmK-3" value="后端" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="710" y="60" width="330" height="4360" as="geometry" />
