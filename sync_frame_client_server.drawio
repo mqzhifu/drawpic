@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T02:36:13.546Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="D6cx2oakGqkHUg4vsJVv" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T02:37:42.934Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7NyCis10gEo8ce1L3ZRr" version="14.7.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
         <mxCell id="-j769H0zRMGYNG9kzOUK-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="fGajkBScvO4oU9Z-KqmK-2" source="-j769H0zRMGYNG9kzOUK-57" target="-j769H0zRMGYNG9kzOUK-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-j769H0zRMGYNG9kzOUK-57" value="66MS&lt;br&gt;等待玩家&lt;br&gt;操作指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
+        <mxCell id="-j769H0zRMGYNG9kzOUK-57" value="66MS&lt;br&gt;FPS=10&lt;br&gt;等待玩家&lt;br&gt;操作指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
           <mxGeometry x="60" y="2952" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6pCZh5-W6IdHgqrbszZI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="fGajkBScvO4oU9Z-KqmK-2" source="-j769H0zRMGYNG9kzOUK-60" target="6pCZh5-W6IdHgqrbszZI-15" edge="1">
@@ -537,6 +537,11 @@
         </mxCell>
         <mxCell id="6pCZh5-W6IdHgqrbszZI-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-j769H0zRMGYNG9kzOUK-60" target="fGajkBScvO4oU9Z-KqmK-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-25" value="推送玩家操作帧" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6pCZh5-W6IdHgqrbszZI-16">
+          <mxGeometry x="-0.2695" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6pCZh5-W6IdHgqrbszZI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6pCZh5-W6IdHgqrbszZI-15" target="fGajkBScvO4oU9Z-KqmK-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
