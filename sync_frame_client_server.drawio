@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T02:45:37.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="BjCMkw757Rev3JAx05tz" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T02:46:02.793Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="NZa5jZZ0Uuq8J1cEeVm_" version="14.7.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -557,15 +557,6 @@
         <mxCell id="Sno_3FDuC9euJfznuB0p-32" value="用户B" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="840" y="40" width="200" height="4360" as="geometry" />
         </mxCell>
-        <mxCell id="Sno_3FDuC9euJfznuB0p-33" value="用户名&lt;br&gt;密码&lt;br&gt;登陆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
-          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Sno_3FDuC9euJfznuB0p-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Sno_3FDuC9euJfznuB0p-32" source="Sno_3FDuC9euJfznuB0p-35" target="Sno_3FDuC9euJfznuB0p-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Sno_3FDuC9euJfznuB0p-35" value="登陆成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
-          <mxGeometry x="40" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Sno_3FDuC9euJfznuB0p-32" source="Sno_3FDuC9euJfznuB0p-37" target="Sno_3FDuC9euJfznuB0p-45">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -582,9 +573,6 @@
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-39" value="触发游戏结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
           <mxGeometry x="28" y="4070" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Sno_3FDuC9euJfznuB0p-40" value="loading&lt;br&gt;...&lt;br&gt;..." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
-          <mxGeometry x="60" y="345" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-41" value="展示UI操作结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
           <mxGeometry x="36" y="3950" width="120" height="60" as="geometry" />
@@ -613,11 +601,14 @@
         <mxCell id="Sno_3FDuC9euJfznuB0p-50" value="获知其它玩家掉线&lt;br&gt;已恢复" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
           <mxGeometry x="40" y="1650" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Sno_3FDuC9euJfznuB0p-32" source="Sno_3FDuC9euJfznuB0p-52" target="Sno_3FDuC9euJfznuB0p-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-52" value="解锁&lt;br&gt;玩家操作" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
           <mxGeometry x="40" y="1760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-54" value="重新开始游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
-          <mxGeometry x="36" y="1870" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-j769H0zRMGYNG9kzOUK-20" target="Sno_3FDuC9euJfznuB0p-50">
           <mxGeometry relative="1" as="geometry" />
