@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T03:03:11.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="VRnDSeBzGIN4ALJQkPV9" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T03:03:48.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="l69pi9cIyrPLeGxq5AQd" version="14.7.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -593,8 +593,11 @@
         <mxCell id="Sno_3FDuC9euJfznuB0p-64" value="其它玩家掉线了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
           <mxGeometry x="50" y="2960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sno_3FDuC9euJfznuB0p-65" value="锁定玩家操作&lt;br&gt;直到接收S端&lt;br&gt;最新逻辑帧" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
+        <mxCell id="Sno_3FDuC9euJfznuB0p-65" value="锁定玩家操作&lt;br&gt;直到接收S端&lt;br&gt;最新通知" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
           <mxGeometry x="50" y="3060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-67" value="等待玩家&lt;br&gt;网络恢复" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
+          <mxGeometry x="70" y="3170" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-j769H0zRMGYNG9kzOUK-20" target="Sno_3FDuC9euJfznuB0p-50">
           <mxGeometry relative="1" as="geometry" />
