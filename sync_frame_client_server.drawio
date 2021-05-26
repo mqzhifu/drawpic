@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T03:05:15.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_APPog0lJ7gn1jupjRni" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T03:06:41.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="VwtAdUlEdOgeA63kCnY-" version="14.7.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-1" value="创建socket&lt;br&gt;长连接" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-2" vertex="1">
-          <mxGeometry x="152" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="152" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W625Gkra-pkz5VeMZ-dp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="fGajkBScvO4oU9Z-KqmK-2" source="-j769H0zRMGYNG9kzOUK-16" target="W625Gkra-pkz5VeMZ-dp-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -320,7 +320,7 @@
           <mxGeometry x="42" y="4180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-2" value="创建socket&lt;br&gt;长连接" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-3" vertex="1">
-          <mxGeometry x="40" y="435" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-7" value="loginRes&lt;br&gt;playerInfo" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-3" vertex="1">
           <mxGeometry x="44" y="635" width="120" height="60" as="geometry" />
@@ -505,12 +505,6 @@
             <mxPoint x="500" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-j769H0zRMGYNG9kzOUK-6" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="525" as="sourcePoint" />
-            <mxPoint x="690" y="525" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-j769H0zRMGYNG9kzOUK-7" target="Sno_3FDuC9euJfznuB0p-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="530" y="725" as="targetPoint" />
@@ -616,6 +610,12 @@
             <Array as="points">
               <mxPoint x="390" y="3250" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-j769H0zRMGYNG9kzOUK-6" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="-j769H0zRMGYNG9kzOUK-2" source="-j769H0zRMGYNG9kzOUK-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="524.5" as="sourcePoint" />
+            <mxPoint x="750" y="524.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
