@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T02:45:10.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="MPrKjumw2wxHqJPk6TfG" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T02:45:37.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="BjCMkw757Rev3JAx05tz" version="14.7.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,9 +229,6 @@
         <mxCell id="Sno_3FDuC9euJfznuB0p-17" value="沉浸游戏开始前UI&lt;br&gt;重新开始游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
           <mxGeometry x="44" y="1770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sno_3FDuC9euJfznuB0p-20" value="解锁玩家操作&lt;br&gt;重新开始游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
-          <mxGeometry x="44" y="1860" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="Sno_3FDuC9euJfznuB0p-26" target="-j769H0zRMGYNG9kzOUK-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -312,11 +309,6 @@
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-7" value="loginRes&lt;br&gt;playerInfo" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-3" vertex="1">
           <mxGeometry x="44" y="635" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-j769H0zRMGYNG9kzOUK-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="fGajkBScvO4oU9Z-KqmK-3" source="-j769H0zRMGYNG9kzOUK-20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="104" y="1770" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-20" value="通知其它玩家&lt;br&gt;该掉线玩家&lt;br&gt;已恢复" style="rounded=0;whiteSpace=wrap;html=1;" parent="fGajkBScvO4oU9Z-KqmK-3" vertex="1">
           <mxGeometry x="44" y="1650" width="120" height="60" as="geometry" />
@@ -562,11 +554,6 @@
         <mxCell id="Sno_3FDuC9euJfznuB0p-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pCZh5-W6IdHgqrbszZI-9" target="Sno_3FDuC9euJfznuB0p-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sno_3FDuC9euJfznuB0p-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Sno_3FDuC9euJfznuB0p-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="624" y="1840" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-32" value="用户B" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="840" y="40" width="200" height="4360" as="geometry" />
         </mxCell>
@@ -628,6 +615,12 @@
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-52" value="解锁&lt;br&gt;玩家操作" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
           <mxGeometry x="40" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-54" value="重新开始游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Sno_3FDuC9euJfznuB0p-32">
+          <mxGeometry x="36" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-j769H0zRMGYNG9kzOUK-20" target="Sno_3FDuC9euJfznuB0p-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
