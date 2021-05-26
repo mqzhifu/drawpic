@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T03:20:44.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="zrhWxYQAnLqelN8XavNo" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T03:21:13.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="qp16xx13LFQ1Wf1m-q_J" version="14.7.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -263,6 +263,11 @@
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="Sno_3FDuC9euJfznuB0p-59" target="Sno_3FDuC9euJfznuB0p-57">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-101" value="S端正常响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sno_3FDuC9euJfznuB0p-62">
+          <mxGeometry x="0.129" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-59" value="&lt;span&gt;PING&lt;/span&gt;&lt;br&gt;&lt;span&gt;试一下&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
           <mxGeometry x="50" y="3308" width="80" height="80" as="geometry" />
@@ -667,6 +672,11 @@
             <Array as="points">
               <mxPoint x="410" y="3488" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-100" value="依然无响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sno_3FDuC9euJfznuB0p-63">
+          <mxGeometry x="-0.375" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-j769H0zRMGYNG9kzOUK-6" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="-j769H0zRMGYNG9kzOUK-2" source="-j769H0zRMGYNG9kzOUK-1">
