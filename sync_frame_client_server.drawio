@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T03:17:19.610Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6xCSi4UYEI6Y-T8rztkE" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T03:19:06.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="DxrRtns-GubgImvULzbS" version="14.7.0" type="github">
   <diagram id="8QU5NE9KTFitOdIOCqZJ" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -259,13 +259,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-57" value="定时器&lt;br&gt;X秒内&lt;br&gt;未收到S端&lt;br&gt;推送逻辑帧" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
-          <mxGeometry x="2" y="3158" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="3130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fGajkBScvO4oU9Z-KqmK-2" source="Sno_3FDuC9euJfznuB0p-59" target="Sno_3FDuC9euJfznuB0p-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-59" value="&lt;span&gt;PING&lt;/span&gt;&lt;br&gt;&lt;span&gt;试一下&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
-          <mxGeometry x="22" y="3308" width="80" height="80" as="geometry" />
+          <mxGeometry x="50" y="3308" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-79" value="这里打算如何处理？" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="fGajkBScvO4oU9Z-KqmK-2">
           <mxGeometry x="20" y="640" width="120" height="80" as="geometry" />
@@ -646,7 +646,7 @@
         <mxCell id="Sno_3FDuC9euJfznuB0p-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sno_3FDuC9euJfznuB0p-59" target="Sno_3FDuC9euJfznuB0p-61">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="382" y="3488" />
+              <mxPoint x="410" y="3488" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -667,6 +667,11 @@
         </mxCell>
         <mxCell id="Sno_3FDuC9euJfznuB0p-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sno_3FDuC9euJfznuB0p-66" target="Sno_3FDuC9euJfznuB0p-64">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sno_3FDuC9euJfznuB0p-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sno_3FDuC9euJfznuB0p-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1395" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
