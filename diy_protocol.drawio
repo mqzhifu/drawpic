@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T06:18:18.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="9DkAjX1jN0DDiujSYMV2" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-31T06:19:08.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="i-pPiO3SfQNuVlvJmMVK" version="14.7.3" type="github">
   <diagram id="GCXrY2QsA4B7QGreXDqX" name="Page-1">
     <mxGraphModel dx="599" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-1" value="字节1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="1356" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-2" value="&lt;span&gt;字节2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1700" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="1476" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-3" value="&lt;span&gt;字节3&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1820" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="1596" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-4" value="......" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1930" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="1706" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-5" value="字节32" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2050" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="1826" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-6" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1580" y="202" as="sourcePoint" />
-            <mxPoint x="2170" y="202" as="targetPoint" />
+            <mxPoint x="1356" y="202" as="sourcePoint" />
+            <mxPoint x="1946" y="202" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-7" value="session_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TAcSfTKSRgDNf1jZrh-P-6" vertex="1" connectable="0">
@@ -68,12 +68,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-21" value="字节35+N" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2170" y="40" width="440" height="60" as="geometry" />
+          <mxGeometry x="1946" y="40" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-22" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="2170" y="200" as="sourcePoint" />
-            <mxPoint x="2620" y="200" as="targetPoint" />
+            <mxPoint x="1946" y="200" as="sourcePoint" />
+            <mxPoint x="2396" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-23" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;用户传输的真实数据&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TAcSfTKSRgDNf1jZrh-P-22" vertex="1" connectable="0">
@@ -92,6 +92,17 @@
         </mxCell>
         <mxCell id="9RRE4GS8OZpcR4dE-EF0-5" value="字节6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1307" y="40" width="49" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9RRE4GS8OZpcR4dE-EF0-6" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1158" y="202" as="sourcePoint" />
+            <mxPoint x="1360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9RRE4GS8OZpcR4dE-EF0-7" value="通信协议号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9RRE4GS8OZpcR4dE-EF0-6">
+          <mxGeometry x="0.1477" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
