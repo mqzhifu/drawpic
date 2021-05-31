@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T04:36:09.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="nbgdbDCB3O65kKBzEIOt" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-31T04:37:29.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jIOt_zwB3KJaR7DK2St6" version="14.7.1" type="github">
   <diagram id="GCXrY2QsA4B7QGreXDqX" name="Page-1">
     <mxGraphModel dx="599" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,6 +64,20 @@
         </mxCell>
         <mxCell id="TAcSfTKSRgDNf1jZrh-P-19" value="保留字节" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TAcSfTKSRgDNf1jZrh-P-18">
           <mxGeometry x="0.1477" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAcSfTKSRgDNf1jZrh-P-21" value="字节35+N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="40" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TAcSfTKSRgDNf1jZrh-P-22" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1770" y="200" as="sourcePoint" />
+            <mxPoint x="2220" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAcSfTKSRgDNf1jZrh-P-23" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;用户传输的真实数据&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TAcSfTKSRgDNf1jZrh-P-22">
+          <mxGeometry x="-0.3763" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
