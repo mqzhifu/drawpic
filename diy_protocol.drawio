@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T06:22:23.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="D9LLe61LcB8KG-O8xUxq" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-31T06:29:18.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="2kfP4d1M7eBSsO3lNOCj" version="14.7.3" type="github">
   <diagram id="GCXrY2QsA4B7QGreXDqX" name="Page-1">
     <mxGraphModel dx="599" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,6 +100,9 @@
           <mxGeometry x="0.1477" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9RRE4GS8OZpcR4dE-EF0-9" value="当action=login，此部分可以为空" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="130" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
