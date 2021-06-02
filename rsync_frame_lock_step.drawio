@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T09:40:03.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="61jZmuk1KwM7_WOthMAr" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T09:40:24.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="NQLr63HC4w-mz68TYD2d" version="14.7.3" type="github">
   <diagram id="-5-jdhdnzxWbleS5DXfY" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="7hrJLlgsWt-9u6O5V6BG-5" value="产生&lt;br&gt;操作指令A" style="rounded=0;whiteSpace=wrap;html=1;" parent="7hrJLlgsWt-9u6O5V6BG-2" vertex="1">
           <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7hrJLlgsWt-9u6O5V6BG-11" value="接收逻辑帧AB&lt;br&gt;并告知S端已接收&lt;br&gt;开始本地渲染" style="rounded=0;whiteSpace=wrap;html=1;" parent="7hrJLlgsWt-9u6O5V6BG-2" vertex="1">
+        <mxCell id="7hrJLlgsWt-9u6O5V6BG-11" value="接收逻辑帧AB&lt;br&gt;开始本地渲染" style="rounded=0;whiteSpace=wrap;html=1;" parent="7hrJLlgsWt-9u6O5V6BG-2" vertex="1">
           <mxGeometry x="550" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YzlM53vTQGtiB-58P6q3-10" value="产生&lt;br&gt;操作指令C" style="rounded=0;whiteSpace=wrap;html=1;" parent="7hrJLlgsWt-9u6O5V6BG-2" vertex="1">
@@ -58,7 +58,7 @@
         <mxCell id="7hrJLlgsWt-9u6O5V6BG-6" value="产生&lt;br&gt;操作指令B" style="rounded=0;whiteSpace=wrap;html=1;" parent="7hrJLlgsWt-9u6O5V6BG-4" vertex="1">
           <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7hrJLlgsWt-9u6O5V6BG-12" value="接收逻辑帧AB&lt;br&gt;并告知S端已接收&lt;br&gt;开始本地渲染" style="rounded=0;whiteSpace=wrap;html=1;" parent="7hrJLlgsWt-9u6O5V6BG-4" vertex="1">
+        <mxCell id="7hrJLlgsWt-9u6O5V6BG-12" value="接收逻辑帧AB&lt;br&gt;开始本地渲染" style="rounded=0;whiteSpace=wrap;html=1;" parent="7hrJLlgsWt-9u6O5V6BG-4" vertex="1">
           <mxGeometry x="550" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YzlM53vTQGtiB-58P6q3-12" value="产生&lt;br&gt;操作指令E" style="rounded=0;whiteSpace=wrap;html=1;" parent="7hrJLlgsWt-9u6O5V6BG-4" vertex="1">
