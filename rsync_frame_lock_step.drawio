@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T09:46:54.275Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="RfdZ7LuaDtJ0BHj67a0Y" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T09:47:25.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="XCLZ_kZzWJSvWgCfmnKl" version="14.7.3" type="github">
   <diagram id="-5-jdhdnzxWbleS5DXfY" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7hrJLlgsWt-9u6O5V6BG-1" value="Frame-sync" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;" parent="1" vertex="1">
+        <mxCell id="7hrJLlgsWt-9u6O5V6BG-1" value="帧同步" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="60" width="1770" height="380" as="geometry" />
         </mxCell>
         <mxCell id="7hrJLlgsWt-9u6O5V6BG-2" value="玩家1" style="swimlane;html=1;startSize=30;horizontal=0;" parent="7hrJLlgsWt-9u6O5V6BG-1" vertex="1">
