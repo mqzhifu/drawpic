@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T09:45:32.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="qn37svs5YHbNxreSMsYd" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T09:45:58.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="iyiyEnrKg117m-kBxMCH" version="14.7.3" type="github">
   <diagram id="-5-jdhdnzxWbleS5DXfY" name="Page-1">
     <mxGraphModel dx="1426" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,6 +213,14 @@
         </mxCell>
         <mxCell id="M0FZiZdhZqYP138DUxzo-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="M0FZiZdhZqYP138DUxzo-11" source="M0FZiZdhZqYP138DUxzo-51" target="M0FZiZdhZqYP138DUxzo-52">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M0FZiZdhZqYP138DUxzo-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="M0FZiZdhZqYP138DUxzo-11" source="M0FZiZdhZqYP138DUxzo-51" target="M0FZiZdhZqYP138DUxzo-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="10" />
+              <mxPoint x="460" y="10" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="M0FZiZdhZqYP138DUxzo-51" value="所有玩家&lt;br&gt;在本时间片&lt;br&gt;都已发送&lt;br&gt;操作帧" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="M0FZiZdhZqYP138DUxzo-11">
           <mxGeometry x="550" y="20" width="80" height="80" as="geometry" />
