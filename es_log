@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T08:33:08.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="9G6mKurWLBFBZtaXrEjG" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T08:34:11.858Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="aUWw_qewL_kQ4dwboN4m" version="14.7.6" type="github">
   <diagram id="ksYGqNeBjqDGTvR9KpyR" name="Page-1">
     <mxGraphModel dx="1426" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
           <mxGeometry x="20" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-10" value=" 活动/引流-项目" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="330" y="490" width="200" height="200" as="geometry" />
+          <mxGeometry x="330" y="490" width="200" height="290" as="geometry" />
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-16" value="9.9元微信活动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-10">
           <mxGeometry x="10" y="35" width="120" height="60" as="geometry" />
@@ -47,10 +47,22 @@
           <mxGeometry x="10" y="115" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-11" value="课程项目" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="570" y="490" width="200" height="200" as="geometry" />
+          <mxGeometry x="570" y="490" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-18" value="幼儿/中学&lt;br&gt;课程管理-模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-11">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-19" value="教材&lt;br&gt;模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-11">
+          <mxGeometry x="10" y="135" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-12" value="教师项目" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="800" y="485" width="200" height="200" as="geometry" />
+          <mxGeometry x="800" y="485" width="200" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-20" value="国内教师" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-12">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-21" value="国外教师" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-12">
+          <mxGeometry x="10" y="145" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
