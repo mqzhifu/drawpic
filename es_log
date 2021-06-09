@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T08:36:48.151Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="T1UEDpHwkJ3WSHoLvjuj" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T08:37:44.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="byxLy9jQi1rfO8wyZYfW" version="14.7.6" type="github">
   <diagram id="ksYGqNeBjqDGTvR9KpyR" name="Page-1">
     <mxGraphModel dx="1426" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,15 @@
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-8" value="帧同步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
           <mxGeometry x="757" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-22" value="任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
+          <mxGeometry x="20" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-23" value="成就" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
+          <mxGeometry x="170" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-24" value="房间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
+          <mxGeometry x="320" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-9" value="ERP项目" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="70" y="490" width="240" height="290" as="geometry" />
