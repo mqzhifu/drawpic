@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T08:44:10.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="5_Qr2I4G3GBhpZ0AqGpb" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T08:45:59.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="oySDN8-sJUTv6iTcWuWN" version="14.7.6" type="github">
   <diagram id="ksYGqNeBjqDGTvR9KpyR" name="Page-1">
     <mxGraphModel dx="1426" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BV27IvNEnhXXRIftuA6s-6" value="微服务" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="70" y="720" width="930" height="230" as="geometry" />
+          <mxGeometry x="70" y="720" width="810" height="230" as="geometry" />
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-1" value="订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
           <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
@@ -13,17 +13,14 @@
         <mxCell id="BV27IvNEnhXXRIftuA6s-3" value="用户中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
           <mxGeometry x="170" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BV27IvNEnhXXRIftuA6s-4" value="支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
+        <mxCell id="BV27IvNEnhXXRIftuA6s-4" value="支付/商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
           <mxGeometry x="320" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BV27IvNEnhXXRIftuA6s-5" value="商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
-          <mxGeometry x="470" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-7" value="游戏匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
-          <mxGeometry x="610" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-8" value="帧同步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
-          <mxGeometry x="757" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-22" value="任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
           <mxGeometry x="20" y="140" width="120" height="60" as="geometry" />
@@ -38,7 +35,7 @@
           <mxGeometry x="470" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-31" value="认证中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-6">
-          <mxGeometry x="610" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-25" value="中间件" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="910" y="420" width="440" height="280" as="geometry" />
@@ -102,6 +99,33 @@
         </mxCell>
         <mxCell id="BV27IvNEnhXXRIftuA6s-37" value="9.9元抖音活动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-35">
           <mxGeometry x="20" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-46" value="开源软件" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="910" y="720" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-47" value="mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-46">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-48" value="nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-46">
+          <mxGeometry x="160" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-49" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-46">
+          <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-50" value="mqtt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-46">
+          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-51" value="php" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-46">
+          <mxGeometry x="300" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-52" value="zipkin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-46">
+          <mxGeometry x="300" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-53" value="es" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-46">
+          <mxGeometry x="20" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV27IvNEnhXXRIftuA6s-54" value="linkerd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BV27IvNEnhXXRIftuA6s-46">
+          <mxGeometry x="160" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
